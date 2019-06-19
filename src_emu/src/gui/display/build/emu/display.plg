@@ -1,0 +1,32 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: display - Win32 RGB16_Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\whwu\LOCALS~1\Temp\RSPD1.tmp" with contents
+[
+/nologo /Zp16 /MDd /W3 /GX /ZI /Od /X /I "..\..\..\sysinc" /I "..\..\..\..\include" /I "..\..\..\include" /I "..\..\src\include" /I "..\..\src\rgbcom" /D "EMULATION" /D "_EMULATE_" /D "WIN32" /D "_DEBUG" /D LDD_MODE=DDM_RGB16_565 /FR"display___Win32_RGB16_Debug/" /Fo"display___Win32_RGB16_Debug/" /Fd"display___Win32_RGB16_Debug/" /FD /c 
+"E:\VSSCheckDir\ÆôÃ÷ÐÇ\Emu\gui\display\src\RGB\display.c"
+"E:\VSSCheckDir\ÆôÃ÷ÐÇ\Emu\gui\display\src\RGB\RGB\rgb.c"
+"E:\VSSCheckDir\ÆôÃ÷ÐÇ\Emu\gui\display\src\common\dispcomn.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\whwu\LOCALS~1\Temp\RSPD1.tmp" 
+Creating command line "link.exe -lib /nologo /out:"../../../../lib/display.lib"  ".\display___Win32_RGB16_Debug\display.obj" ".\display___Win32_RGB16_Debug\rgb.obj" ".\display___Win32_RGB16_Debug\dispcomn.obj" "
+<h3>Output Window</h3>
+Compiling...
+display.c
+rgb.c
+dispcomn.c
+Generating Code...
+Creating library...
+
+
+
+<h3>Results</h3>
+display.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

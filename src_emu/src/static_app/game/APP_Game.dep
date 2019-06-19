@@ -1,0 +1,78 @@
+# Microsoft Developer Studio Generated Dependency File, included by APP_Game.mak
+
+.\poker\Poker.c : \
+	"..\..\..\include\image\hpimage.h"\
+	"..\..\..\include\project\app.h"\
+	"..\..\..\include\project\gamehelp.h"\
+	"..\..\..\include\project\plx_pdaex.h"\
+	"..\..\..\include\project\pubapp.h"\
+	"..\..\..\include\project\str_plx.h"\
+	"..\..\..\include\project\str_public.h"\
+	"..\..\..\include\project\virtkey.h"\
+	"..\..\..\include\sys\reent.h"\
+	"..\..\..\include\window\hpdef.h"\
+	"..\..\..\include\window\windebug.h"\
+	"..\..\..\include\window\window.h"\
+	"..\..\..\include\window\winpda.h"\
+	".\poker\Poker.h"\
+	
+
+.\gamerus\GameRus.c : \
+	"..\..\..\include\image\hpimage.h"\
+	"..\..\..\include\machine\posix_opt.h"\
+	"..\..\..\include\project\app.h"\
+	"..\..\..\include\project\gamehelp.h"\
+	"..\..\..\include\project\plx_pdaex.h"\
+	"..\..\..\include\project\pubapp.h"\
+	"..\..\..\include\project\str_plx.h"\
+	"..\..\..\include\project\str_public.h"\
+	"..\..\..\include\project\virtkey.h"\
+	"..\..\..\include\sys\reent.h"\
+	"..\..\..\include\unistd.h"\
+	"..\..\..\include\window\hpdef.h"\
+	"..\..\..\include\window\windebug.h"\
+	"..\..\..\include\window\window.h"\
+	"..\..\..\include\window\winpda.h"\
+	".\gamerus\GameRus.h"\
+	".\gamerus\GameRusStr.h"\
+	
+
+.\pushbox\PushBox.c : \
+	"..\..\..\include\image\hpimage.h"\
+	"..\..\..\include\machine\posix_opt.h"\
+	"..\..\..\include\project\app.h"\
+	"..\..\..\include\project\gamehelp.h"\
+	"..\..\..\include\project\plx_pdaex.h"\
+	"..\..\..\include\project\pollex.h"\
+	"..\..\..\include\project\pubapp.h"\
+	"..\..\..\include\project\str_plx.h"\
+	"..\..\..\include\project\str_public.h"\
+	"..\..\..\include\project\virtkey.h"\
+	"..\..\..\include\sys\reent.h"\
+	"..\..\..\include\unistd.h"\
+	"..\..\..\include\window\hpdef.h"\
+	"..\..\..\include\window\windebug.h"\
+	"..\..\..\include\window\window.h"\
+	"..\..\..\include\window\winpda.h"\
+	".\pushbox\PushBox.h"\
+	".\pushbox\PushBoxrs.h"\
+	
+
+.\paopao\pao.c : \
+	"..\..\..\include\image\hpimage.h"\
+	"..\..\..\include\machine\ieeefp.h"\
+	"..\..\..\include\machine\posix_opt.h"\
+	"..\..\..\include\project\app.h"\
+	"..\..\..\include\project\gamehelp.h"\
+	"..\..\..\include\project\mullang.h"\
+	"..\..\..\include\project\plx_pdaex.h"\
+	"..\..\..\include\project\virtkey.h"\
+	"..\..\..\include\sys\reent.h"\
+	"..\..\..\include\unistd.h"\
+	"..\..\..\include\window\hpdef.h"\
+	"..\..\..\include\window\windebug.h"\
+	"..\..\..\include\window\window.h"\
+	"..\..\..\include\window\winpda.h"\
+	".\paopao\pao.h"\
+	".\paopao\paors.h"\
+	

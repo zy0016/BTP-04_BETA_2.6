@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[medrv.dsp]
+SCC_Aux_Path = "\\Pollexdev\SmartPhoneDevelopDB\Benefon"
+SCC_Project_Name = "$/开发区/src_emu/src/medrv", SFBAAAAA
+
+[medrv.mak]
+SCC_Aux_Path = "\\Pollexdev\SmartPhoneDevelopDB\Benefon"
+SCC_Project_Name = "$/开发区/src_emu/src/medrv", SFBAAAAA

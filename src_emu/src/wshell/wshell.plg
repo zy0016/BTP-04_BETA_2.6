@@ -1,0 +1,2238 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: app_addressbook - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSP92.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "..\..\..\include" /I "..\..\..\include\window" /I "..\..\..\include\project" /I "..\..\..\include\image" /I "..\..\..\include\me" /I "..\..\..\include\setup" /I "..\..\..\include\IVT\stack" /I "..\..\..\include\IVT\sdk" /I "..\..\..\include\bluetooth" /I "..\..\..\include\public" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "_EMULATE_" /Fp"app_addressbook___Win32_Debug/app_addressbook.pch" /YX /Fo"app_addressbook___Win32_Debug/" /Fd"app_addressbook___Win32_Debug/" /FD /GZ /c 
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\addressbook\abdatabase.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\addressbook\abedit.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\addressbook\abentry.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\addressbook\abextern.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\addressbook\abgroups.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\addressbook\abindex.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\addressbook\abinit.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\addressbook\abmain.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\addressbook\abmemory.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\addressbook\abpicker.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\addressbook\abquickdialing.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\addressbook\absearchwnd.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\addressbook\absim.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\addressbook\abview.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\addressbook\Tmp.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSP92.tmp" 
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSP93.tmp" with contents
+[
+/nologo /out:"..\..\..\lib\app_addressbook.lib" 
+".\app_addressbook___Win32_Debug\abdatabase.obj"
+".\app_addressbook___Win32_Debug\abedit.obj"
+".\app_addressbook___Win32_Debug\abentry.obj"
+".\app_addressbook___Win32_Debug\abextern.obj"
+".\app_addressbook___Win32_Debug\abgroups.obj"
+".\app_addressbook___Win32_Debug\abindex.obj"
+".\app_addressbook___Win32_Debug\abinit.obj"
+".\app_addressbook___Win32_Debug\abmain.obj"
+".\app_addressbook___Win32_Debug\abmemory.obj"
+".\app_addressbook___Win32_Debug\abpicker.obj"
+".\app_addressbook___Win32_Debug\abquickdialing.obj"
+".\app_addressbook___Win32_Debug\absearchwnd.obj"
+".\app_addressbook___Win32_Debug\absim.obj"
+".\app_addressbook___Win32_Debug\abview.obj"
+".\app_addressbook___Win32_Debug\Tmp.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSP93.tmp"
+<h3>Output Window</h3>
+Compiling...
+abdatabase.c
+abedit.c
+abentry.c
+abextern.c
+abgroups.c
+abindex.c
+abinit.c
+abmain.c
+abmemory.c
+abpicker.c
+abquickdialing.c
+absearchwnd.c
+absim.c
+abview.c
+Tmp.c
+Creating library...
+<h3>
+--------------------Configuration: APP_Browser - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSP94.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /X /I "..\..\..\include" /I "..\..\..\include\window" /I "..\..\..\include\project" /I "..\..\..\include\image" /I "..\..\..\include\me" /I "..\..\..\include\setup" /I "..\..\..\include\browser" /I "..\..\..\include\cryption" /I "..\..\..\include\public" /I "..\..\..\include\wap" /D "WIN32" /D "_EMULATE_" /D "_DEBUG" /FR"Debug/" /Fp"Debug/APP_Browser.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\browser\depend\wtadepend.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\browser\AuthProc.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\browser\DownLoad.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\browser\Hopen_DocCtrl.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\browser\Hopen_DrawDev.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\browser\UrlRatio.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\browser\wappush.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\browser\wappushapi.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\browser\Wauthwin.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\browser\WIE.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\browser\WIEBk.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\browser\wiego.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\browser\wiepub.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\browser\WieSaveas.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\browser\WIEsetting.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\browser\wievisited.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSP94.tmp" 
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSP95.tmp" with contents
+[
+/nologo /out:"..\..\..\lib\Browser.lib" 
+".\Debug\wtadepend.obj"
+".\Debug\AuthProc.obj"
+".\Debug\DownLoad.obj"
+".\Debug\Hopen_DocCtrl.obj"
+".\Debug\Hopen_DrawDev.obj"
+".\Debug\UrlRatio.obj"
+".\Debug\wappush.obj"
+".\Debug\wappushapi.obj"
+".\Debug\Wauthwin.obj"
+".\Debug\WIE.obj"
+".\Debug\WIEBk.obj"
+".\Debug\wiego.obj"
+".\Debug\wiepub.obj"
+".\Debug\WieSaveas.obj"
+".\Debug\WIEsetting.obj"
+".\Debug\wievisited.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSP95.tmp"
+<h3>Output Window</h3>
+Compiling...
+wtadepend.c
+AuthProc.c
+DownLoad.c
+Hopen_DocCtrl.c
+Hopen_DrawDev.c
+UrlRatio.c
+wappush.c
+wappushapi.c
+Wauthwin.c
+WIE.c
+WIEBk.c
+wiego.c
+wiepub.c
+WieSaveas.c
+WIEsetting.c
+wievisited.c
+Creating library...
+<h3>
+--------------------Configuration: app_call - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSP96.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "../../../include" /I "../../../include/project" /I "../../../include/ab" /I "../../../include/setup" /I "../../../include/callapp" /I "../../../include/window" /I "../../../include/image" /I "../../../include/me" /I "../../../include/public" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "_EMULATE_" /D "CAPP_DEBUG" /Fp"Debug/app_call.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\call_app\mbphone\MB_control.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\call_app\mbphone\MB_GSM.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\call_app\mbphone\MB_SendDTMF.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\call_app\mbphone\MBCallEnd.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\call_app\mbphone\MBDialLink.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\call_app\mbphone\MBDialup.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\call_app\mbphone\MBInCall.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\call_app\mbphone\MBPstMsg.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\call_app\mbphone\mbpub_function.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\call_app\mbphone\MBRing.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\call_app\logs\gprsdata.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\call_app\logs\log_callcosts.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\call_app\logs\log_callcounters.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\call_app\logs\log_communication.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\call_app\logs\log_counters.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\call_app\logs\log_data.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\call_app\logs\log_gprscounters.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\call_app\logs\log_main.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\call_app\logs\MBRecordListExt.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\call_app\logs\MBRecordValidPin2.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\call_app\logs\MBRecordView.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\call_app\ss\btp_btaddr.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\call_app\ss\btp_pminfo.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\call_app\ss\btp_sw.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\call_app\ss\checkNSLC.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\call_app\ss\checkSPSL.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\call_app\ss\ss_callbarring.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\call_app\ss\ss_calldivert.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\call_app\ss\ss_callwaiting.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\call_app\ss\ss_imei.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\call_app\ussd\ussd_replywnd.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\call_app\ussd\ussd_showwnd.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSP96.tmp" 
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSP97.tmp" with contents
+[
+/nologo /out:"..\..\..\lib\app_call.lib" 
+".\Debug\MB_control.obj"
+".\Debug\MB_GSM.obj"
+".\Debug\MB_SendDTMF.obj"
+".\Debug\MBCallEnd.obj"
+".\Debug\MBDialLink.obj"
+".\Debug\MBDialup.obj"
+".\Debug\MBInCall.obj"
+".\Debug\MBPstMsg.obj"
+".\Debug\mbpub_function.obj"
+".\Debug\MBRing.obj"
+".\Debug\gprsdata.obj"
+".\Debug\log_callcosts.obj"
+".\Debug\log_callcounters.obj"
+".\Debug\log_communication.obj"
+".\Debug\log_counters.obj"
+".\Debug\log_data.obj"
+".\Debug\log_gprscounters.obj"
+".\Debug\log_main.obj"
+".\Debug\MBRecordListExt.obj"
+".\Debug\MBRecordValidPin2.obj"
+".\Debug\MBRecordView.obj"
+".\Debug\btp_btaddr.obj"
+".\Debug\btp_pminfo.obj"
+".\Debug\btp_sw.obj"
+".\Debug\checkNSLC.obj"
+".\Debug\checkSPSL.obj"
+".\Debug\ss_callbarring.obj"
+".\Debug\ss_calldivert.obj"
+".\Debug\ss_callwaiting.obj"
+".\Debug\ss_imei.obj"
+".\Debug\ussd_replywnd.obj"
+".\Debug\ussd_showwnd.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSP97.tmp"
+<h3>Output Window</h3>
+Compiling...
+MB_control.c
+MB_GSM.c
+MB_SendDTMF.c
+MBCallEnd.c
+MBDialLink.c
+MBDialup.c
+MBInCall.c
+MBPstMsg.c
+mbpub_function.c
+MBRing.c
+gprsdata.c
+log_callcosts.c
+log_callcounters.c
+log_communication.c
+log_counters.c
+log_data.c
+log_gprscounters.c
+log_main.c
+MBRecordListExt.c
+MBRecordValidPin2.c
+MBRecordView.c
+btp_btaddr.c
+btp_pminfo.c
+btp_sw.c
+checkNSLC.c
+checkSPSL.c
+ss_callbarring.c
+ss_calldivert.c
+ss_callwaiting.c
+ss_imei.c
+ussd_replywnd.c
+ussd_showwnd.c
+Creating library...
+<h3>
+--------------------Configuration: APP_Game - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSP98.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /X /I "..\..\..\include" /I "..\..\..\include\public" /I "..\..\..\include\window" /I "..\..\..\include\image" /I "..\..\..\include\project" /I "..\..\..\include\me" /I "..\..\public\pub_control" /D "WIN32" /D "_MBCS" /D "_LIB" /D "_DEBUG" /D "_EMULATE_" /D "_863BIRD_" /Fp"Debug/APP_Game.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Game\poker\Poker.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Game\pushbox\PushBox.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Game\paopao\pao.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Game\Gobang\bitboard.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Game\Gobang\board.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Game\Gobang\game5.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Game\Gobang\robot.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Game\Gobang\SUPER5.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Game\diamond\Diamond.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSP98.tmp" 
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSP99.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /X /I "..\..\..\include" /I "..\..\..\include\public" /I "..\..\..\include\window" /I "..\..\..\include\image" /I "..\..\..\include\project" /I "..\..\..\include\me" /I "..\..\public\pub_control" /D "WIN32" /D "_MBCS" /D "_LIB" /D "_DEBUG" /D "_EMULATE_" /D "_863BIRD_" /FR"Debug/" /Fp"Debug/APP_Game.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Game\DepBomb\DepBomb.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSP99.tmp" 
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSP9A.tmp" with contents
+[
+/nologo /out:"..\..\..\lib\game.lib" 
+".\Debug\Poker.obj"
+".\Debug\PushBox.obj"
+".\Debug\DepBomb.obj"
+".\Debug\pao.obj"
+".\Debug\bitboard.obj"
+".\Debug\board.obj"
+".\Debug\game5.obj"
+".\Debug\robot.obj"
+".\Debug\SUPER5.obj"
+".\Debug\Diamond.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSP9A.tmp"
+<h3>Output Window</h3>
+Compiling...
+Poker.c
+PushBox.c
+pao.c
+bitboard.c
+board.c
+game5.c
+robot.c
+SUPER5.c
+Diamond.c
+Compiling...
+DepBomb.c
+Creating library...
+<h3>
+--------------------Configuration: app_message - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSP9B.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "..\..\..\include" /I "..\..\..\include\window" /I "..\..\..\include\image" /I "..\..\..\include\setup" /I "..\..\..\include\project" /I "..\..\..\include\me" /I "..\..\..\include\ab" /I "..\..\..\include\public" /I "..\..\..\include\mail" /I "..\..\..\include\vcard" /I "..\..\..\include\Browser" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "_TEST_SMS_" /D "_EMULATE_" /Fp"Debug/app_message.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\mu\msgpublic.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\mu\muentry.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\mu\muextern.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\mu\mufolder.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\mu\mulist.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\mu\mumain.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\mu\mumemory.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\sms\cb.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\sms\mybutton.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\sms\smsapi.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\sms\smsdetail.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\sms\smsedit.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\sms\smsentry.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\sms\smsinit.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\sms\smsmemory.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\sms\smsreceive.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\sms\smssend.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\sms\smssetting.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\sms\smssim.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\sms\smsview.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\sms\spinlist.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\sms\temp.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\sms\vardvcal.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\mms\MmsApi.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\mms\MmsCommon.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\mms\MmsDisplay.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\mms\MmsEdit.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\mms\MmsInsert.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\mms\MmsInterface.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\mms\MmsList.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\mms\MmsProtocol.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\mms\MmsSetting.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\mms\smilparse.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\email\MailComFunction.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\email\MailDetail.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\email\MailDial.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\email\MailEdit.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\email\MailEntry.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\email\MailGet.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\email\MailInterface.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\email\MailMailBox.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\email\MailSend.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\email\MailSetting.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_message\email\MailView.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSP9B.tmp" 
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSP9C.tmp" with contents
+[
+/nologo /out:"..\..\..\lib\app_message.lib" 
+".\Debug\msgpublic.obj"
+".\Debug\muentry.obj"
+".\Debug\muextern.obj"
+".\Debug\mufolder.obj"
+".\Debug\mulist.obj"
+".\Debug\mumain.obj"
+".\Debug\mumemory.obj"
+".\Debug\cb.obj"
+".\Debug\mybutton.obj"
+".\Debug\smsapi.obj"
+".\Debug\smsdetail.obj"
+".\Debug\smsedit.obj"
+".\Debug\smsentry.obj"
+".\Debug\smsinit.obj"
+".\Debug\smsmemory.obj"
+".\Debug\smsreceive.obj"
+".\Debug\smssend.obj"
+".\Debug\smssetting.obj"
+".\Debug\smssim.obj"
+".\Debug\smsview.obj"
+".\Debug\spinlist.obj"
+".\Debug\temp.obj"
+".\Debug\vardvcal.obj"
+".\Debug\MmsApi.obj"
+".\Debug\MmsCommon.obj"
+".\Debug\MmsDisplay.obj"
+".\Debug\MmsEdit.obj"
+".\Debug\MmsInsert.obj"
+".\Debug\MmsInterface.obj"
+".\Debug\MmsList.obj"
+".\Debug\MmsProtocol.obj"
+".\Debug\MmsSetting.obj"
+".\Debug\smilparse.obj"
+".\Debug\MailComFunction.obj"
+".\Debug\MailDetail.obj"
+".\Debug\MailDial.obj"
+".\Debug\MailEdit.obj"
+".\Debug\MailEntry.obj"
+".\Debug\MailGet.obj"
+".\Debug\MailInterface.obj"
+".\Debug\MailMailBox.obj"
+".\Debug\MailSend.obj"
+".\Debug\MailSetting.obj"
+".\Debug\MailView.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSP9C.tmp"
+<h3>Output Window</h3>
+Compiling...
+msgpublic.c
+muentry.c
+muextern.c
+mufolder.c
+mulist.c
+mumain.c
+mumemory.c
+cb.c
+mybutton.c
+smsapi.c
+smsdetail.c
+smsedit.c
+smsentry.c
+smsinit.c
+smsmemory.c
+smsreceive.c
+smssend.c
+smssetting.c
+smssim.c
+smsview.c
+spinlist.c
+temp.c
+vardvcal.c
+MmsApi.c
+MmsCommon.c
+MmsDisplay.c
+MmsEdit.c
+MmsInsert.c
+MmsInterface.c
+MmsList.c
+MmsProtocol.c
+MmsSetting.c
+smilparse.c
+MailComFunction.c
+MailDetail.c
+MailDial.c
+MailEdit.c
+MailEntry.c
+MailGet.c
+MailInterface.c
+MailMailBox.c
+MailSend.c
+MailSetting.c
+MailView.c
+Creating library...
+<h3>
+--------------------Configuration: APP_Pim - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSP9D.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /X /I "..\..\..\include" /I "..\..\..\include\window" /I "..\..\..\include\project" /I "..\..\..\include\sys" /I "..\..\..\include\image" /I "..\..\..\include\setup" /I "..\..\..\include\public" /I "..\..\..\include\me" /I "..\..\..\include\ab" /I "..\..\..\include\callapp" /I "..\..\..\include\bluetooth" /I "..\..\..\include\IVT\stack" /I "..\..\..\include\IVT\sdk" /D "WIN32" /D "_MBCS" /D "_LIB" /D "_DEBUG" /D "_EMULATE_" /D "_863BIRD_" /FR"Debug/" /Fp"Debug/APP_Pim.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\notepad\NoteBrowser.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\notepad\Notepad.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\notepad\TextFile.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\calc\CalcFunc.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\calc\CalcMain.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\exch\exch.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\exch\exch_currandrate.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\exch\exch_editvalue.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\exch\exch_file.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\exch\exch_select.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\exch\exch_set.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\picbrowser\BrowsePic.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\picbrowser\PicBrowser.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\picbrowser\piclistex.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\picbrowser\picmultilistex.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\picbrowser\ProcessDir.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\picbrowser\ProcessMultiSel.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\memmanage\MemManage.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\favorite\FavoriteMain.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\calendar\CaleAlarm.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\calendar\CaleBrowse.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\calendar\CaleComFunction.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\calendar\CaleConfig.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\calendar\CaleDayView.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\calendar\CaleEntry.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\calendar\CaleMonthView.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\calendar\CaleSaveApi.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\calendar\CaleWeekView.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\calendar\vCalendar.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\clock\AlmConfigure.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\clock\AlmingWnd.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\clock\AlmMain.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\clock\AlmSet.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\clock\AlmSet_detail.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\clock\clock.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\clock\clock_timezone.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\sndmanage\SndExtern.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\sndmanage\SndManage.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\sndmanage\SndMultiSel.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\sndmanage\SndUsrApi.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\Static_APP\Pim\sndmanage\SoundDir.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSP9D.tmp" 
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSP9E.tmp" with contents
+[
+/nologo /out:"..\..\..\lib\pim.lib" 
+".\Debug\NoteBrowser.obj"
+".\Debug\Notepad.obj"
+".\Debug\TextFile.obj"
+".\Debug\CalcFunc.obj"
+".\Debug\CalcMain.obj"
+".\Debug\exch.obj"
+".\Debug\exch_currandrate.obj"
+".\Debug\exch_editvalue.obj"
+".\Debug\exch_file.obj"
+".\Debug\exch_select.obj"
+".\Debug\exch_set.obj"
+".\Debug\BrowsePic.obj"
+".\Debug\PicBrowser.obj"
+".\Debug\piclistex.obj"
+".\Debug\picmultilistex.obj"
+".\Debug\ProcessDir.obj"
+".\Debug\ProcessMultiSel.obj"
+".\Debug\MemManage.obj"
+".\Debug\FavoriteMain.obj"
+".\Debug\CaleAlarm.obj"
+".\Debug\CaleBrowse.obj"
+".\Debug\CaleComFunction.obj"
+".\Debug\CaleConfig.obj"
+".\Debug\CaleDayView.obj"
+".\Debug\CaleEntry.obj"
+".\Debug\CaleMonthView.obj"
+".\Debug\CaleSaveApi.obj"
+".\Debug\CaleWeekView.obj"
+".\Debug\vCalendar.obj"
+".\Debug\AlmConfigure.obj"
+".\Debug\AlmingWnd.obj"
+".\Debug\AlmMain.obj"
+".\Debug\AlmSet.obj"
+".\Debug\AlmSet_detail.obj"
+".\Debug\clock.obj"
+".\Debug\clock_timezone.obj"
+".\Debug\SndExtern.obj"
+".\Debug\SndManage.obj"
+".\Debug\SndMultiSel.obj"
+".\Debug\SndUsrApi.obj"
+".\Debug\SoundDir.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSP9E.tmp"
+<h3>Output Window</h3>
+Compiling...
+NoteBrowser.c
+Notepad.c
+TextFile.c
+CalcFunc.c
+CalcMain.c
+exch.c
+exch_currandrate.c
+exch_editvalue.c
+exch_file.c
+exch_select.c
+exch_set.c
+BrowsePic.c
+PicBrowser.c
+piclistex.c
+picmultilistex.c
+ProcessDir.c
+ProcessMultiSel.c
+MemManage.c
+FavoriteMain.c
+CaleAlarm.c
+CaleBrowse.c
+CaleComFunction.c
+CaleConfig.c
+CaleDayView.c
+CaleEntry.c
+CaleMonthView.c
+CaleSaveApi.c
+CaleWeekView.c
+vCalendar.c
+AlmConfigure.c
+AlmingWnd.c
+AlmMain.c
+AlmSet.c
+AlmSet_detail.c
+clock.c
+clock_timezone.c
+SndExtern.c
+SndManage.c
+SndMultiSel.c
+SndUsrApi.c
+SoundDir.c
+Creating library...
+<h3>
+--------------------Configuration: APP_Public - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSP9F.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "..\..\..\include" /I "..\..\..\include\public" /I "..\pub_interface" /I "..\..\..\include\window" /I "..\..\..\include\image" /I "..\..\..\include\project" /I "..\..\..\include\me" /I "..\..\..\include\setup" /I "..\..\..\include\ab" /D "WIN32" /D "_MBCS" /D "_LIB" /D "_DEBUG" /D "_EMULATE_" /D "_863BIRD_" /FR"Debug/" /Fp"Debug/APP_Public.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\Pub_Control\ColorSelect.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\pub_control\confirmw.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\pub_control\confirmwEx.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\pub_control\editex.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\pub_control\FormViewer.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\pub_control\FullScreenConfirm.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\pub_control\FullScreenTimeout.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\Pub_Control\GameHelp.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\pub_control\GetValidUrl.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\pub_control\LevInd.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\Pub_Control\menulist.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\Pub_Control\PassChange.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\Pub_Control\PassCheck.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\pub_control\piclist.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\pub_control\picmultilist.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\Pub_Control\PicPreBrow.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\Pub_Control\PreBrow.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\Pub_Control\PreBrowHead.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\pub_control\Receivebox.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\pub_control\Recipient.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\pub_control\RGPreBrow.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\pub_control\Search.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\Pub_Control\SHPreBrow.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\pub_control\SMPreBrow.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\pub_control\spinex.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\pub_control\SSPassCheck.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\pub_control\TextView.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\pub_control\timeedit.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\Pub_Control\tipswin.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\pub_control\Tipswinforstk.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\Pub_Control\TxPreBrow.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\pub_control\unitedit.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\Pub_Control\WaitWin.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\pub_control\wildcard.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\pub_control\wsctrlex.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\pub_interface\GXSReset.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\pub_interface\OptionSelect.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\pub_interface\playmusic.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\pub_interface\pub_function.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\pub_interface\smscount.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\public\pub_interface\Version.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSP9F.tmp" 
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPA0.tmp" with contents
+[
+/nologo /out:"..\..\..\lib\public.lib" 
+".\Debug\ColorSelect.obj"
+".\Debug\confirmw.obj"
+".\Debug\confirmwEx.obj"
+".\Debug\editex.obj"
+".\Debug\FormViewer.obj"
+".\Debug\FullScreenConfirm.obj"
+".\Debug\FullScreenTimeout.obj"
+".\Debug\GameHelp.obj"
+".\Debug\GetValidUrl.obj"
+".\Debug\LevInd.obj"
+".\Debug\menulist.obj"
+".\Debug\PassChange.obj"
+".\Debug\PassCheck.obj"
+".\Debug\piclist.obj"
+".\Debug\picmultilist.obj"
+".\Debug\PicPreBrow.obj"
+".\Debug\PreBrow.obj"
+".\Debug\PreBrowHead.obj"
+".\Debug\Receivebox.obj"
+".\Debug\Recipient.obj"
+".\Debug\RGPreBrow.obj"
+".\Debug\Search.obj"
+".\Debug\SHPreBrow.obj"
+".\Debug\SMPreBrow.obj"
+".\Debug\spinex.obj"
+".\Debug\SSPassCheck.obj"
+".\Debug\TextView.obj"
+".\Debug\timeedit.obj"
+".\Debug\tipswin.obj"
+".\Debug\Tipswinforstk.obj"
+".\Debug\TxPreBrow.obj"
+".\Debug\unitedit.obj"
+".\Debug\WaitWin.obj"
+".\Debug\wildcard.obj"
+".\Debug\wsctrlex.obj"
+".\Debug\GXSReset.obj"
+".\Debug\OptionSelect.obj"
+".\Debug\playmusic.obj"
+".\Debug\pub_function.obj"
+".\Debug\smscount.obj"
+".\Debug\Version.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPA0.tmp"
+<h3>Output Window</h3>
+Compiling...
+ColorSelect.c
+confirmw.c
+confirmwEx.c
+editex.c
+FormViewer.c
+FullScreenConfirm.c
+FullScreenTimeout.c
+GameHelp.c
+GetValidUrl.c
+LevInd.c
+menulist.c
+PassChange.c
+PassCheck.c
+piclist.c
+picmultilist.c
+PicPreBrow.c
+PreBrow.c
+PreBrowHead.c
+Receivebox.c
+Recipient.c
+RGPreBrow.c
+Search.c
+SHPreBrow.c
+SMPreBrow.c
+spinex.c
+SSPassCheck.c
+TextView.c
+timeedit.c
+tipswin.c
+Tipswinforstk.c
+TxPreBrow.c
+unitedit.c
+WaitWin.c
+wildcard.c
+wsctrlex.c
+GXSReset.c
+OptionSelect.c
+playmusic.c
+pub_function.c
+smscount.c
+Version.c
+Creating library...
+<h3>
+--------------------Configuration: APP_USBmodem - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPA1.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "../../../include" /I "../../../include20" /I "../../../include20/ddi" /I "../../../include/project" /I "../../../include/ab" /I "../../../include/setup" /I "../../../include/window" /I "../../../include/image" /I "../../../include/me" /I "../../../include/public" /I "../../../src/multiplexer/multiplex" /I "../../../src/medrv" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/APP_USBmodem.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\app_USBmodem\USBmodem_func.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPA1.tmp" 
+Creating command line "link.exe -lib /nologo /out:"..\..\..\lib\APP_USBmodem.lib"  ".\Debug\USBmodem_func.obj" "
+<h3>Output Window</h3>
+Compiling...
+USBmodem_func.c
+Creating library...
+<h3>
+--------------------Configuration: CPHS application - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPA2.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /X /I "..\..\include" /I "..\..\include\setup" /I "..\..\include\public" /I "..\..\include20" /I "..\..\include\sys" /I "..\..\include\window" /I "..\..\include\image" /I "..\..\include\project" /I "..\..\include\me" /I "..\..\include\callapp" /I "..\..\include\ab" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/CPHS application.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\app_CPHS\CPHS_data.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\app_CPHS\CPHSInfoNum.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\app_CPHS\MailboxNum.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPA2.tmp" 
+Creating command line "link.exe -lib /nologo /out:"..\..\lib\CPHS application.lib"  ".\Debug\CPHS_data.obj" ".\Debug\CPHSInfoNum.obj" ".\Debug\MailboxNum.obj" "
+<h3>Output Window</h3>
+Compiling...
+CPHS_data.c
+CPHSInfoNum.c
+MailboxNum.c
+Creating library...
+<h3>
+--------------------Configuration: Dialer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPA3.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "../../include" /I "../../include/tcpip" /I "../../include20" /I "../../include20/ddi" /I "../../include/project" /I "../../include/me" /I "../../include/window" /I "../../include/image" /I "../../include/setup" /D "DEBUG" /D "_EMULATE_" /D "EMULATION" /D "_HOPEN" /D "_DEBUG" /D "_KERN300" /D "WIN32" /D "_863BIRD_" /D "DIAL_MODULE" /FR"Debug/" /Fp"Debug/Dialer.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\dialer\dialctrl.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\dialer\dialifce.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\dialer\dialinfo.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\dialer\dialmgr.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPA3.tmp" 
+Creating command line "link.exe -lib /nologo /out:"..\..\lib\Dialer.lib"  ".\Debug\dialctrl.obj" ".\Debug\dialifce.obj" ".\Debug\dialinfo.obj" ".\Debug\dialmgr.obj" "
+<h3>Output Window</h3>
+Compiling...
+dialctrl.c
+dialifce.c
+dialinfo.c
+dialmgr.c
+Creating library...
+<h3>
+--------------------Configuration: dlm - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPA4.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "..\..\include" /I "..\..\include\window" /I "..\..\include\project" /I "..\..\include\sys" /I "..\..\include\image" /I "..\..\include\public" /I "..\..\include20" /I "..\..\include\me" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/help.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\dlm\zlib\adler32.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\dlm\zlib\compress.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\dlm\zlib\crc32.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\dlm\zlib\deflate.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\dlm\zlib\infback.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\dlm\zlib\inffast.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\dlm\zlib\inflate.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\dlm\zlib\inftrees.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\dlm\zlib\trees.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\dlm\zlib\uncompr.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\dlm\zlib\zutil.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\dlm\dlmui.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\dlm\funclistarray.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\dlm\loader.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPA4.tmp" 
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPA5.tmp" with contents
+[
+/nologo /out:"..\..\lib\dlm.lib" 
+".\Debug\adler32.obj"
+".\Debug\compress.obj"
+".\Debug\crc32.obj"
+".\Debug\deflate.obj"
+".\Debug\infback.obj"
+".\Debug\inffast.obj"
+".\Debug\inflate.obj"
+".\Debug\inftrees.obj"
+".\Debug\trees.obj"
+".\Debug\uncompr.obj"
+".\Debug\zutil.obj"
+".\Debug\dlmui.obj"
+".\Debug\funclistarray.obj"
+".\Debug\loader.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPA5.tmp"
+<h3>Output Window</h3>
+Compiling...
+adler32.c
+compress.c
+crc32.c
+deflate.c
+infback.c
+inffast.c
+inflate.c
+inftrees.c
+trees.c
+uncompr.c
+zutil.c
+dlmui.c
+funclistarray.c
+loader.c
+Creating library...
+<h3>
+--------------------Configuration: ftpsvr - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPA6.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /X /I "../../include20" /I "../../include" /I "../../include/public" /I "../../include/image" /I "../../include/me" /I "../../include20/ddi" /I "../../include/window" /I "../../include/project" /I "../include/ddi" /I "../build12/inc" /D "DEBUG" /D "_EMULATE_" /D "EMULATION" /D "_HOPEN" /D "_DEBUG" /D "_KERN200" /FR"Debug/" /Fp"Debug/ftpsvr.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\pdasvr\ts_view.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\pdasvr\tsdata.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\pdasvr\tsftpapi.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\pdasvr\tsftpsys.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\pdasvr\tsprot.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPA6.tmp" 
+Creating command line "link.exe -lib /nologo /out:"..\..\lib\ftpsvr.lib"  ".\Debug\ts_view.obj" ".\Debug\tsdata.obj" ".\Debug\tsftpapi.obj" ".\Debug\tsftpsys.obj" ".\Debug\tsprot.obj" "
+<h3>Output Window</h3>
+Compiling...
+ts_view.c
+tsdata.c
+tsftpapi.c
+tsftpsys.c
+tsprot.c
+Creating library...
+<h3>
+--------------------Configuration: help - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPA7.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "..\..\..\include" /I "..\..\..\include\window" /I "..\..\..\include\project" /I "..\..\..\include\sys" /I "..\..\..\include\image" /I "..\..\..\include\public" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/help.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\help\help.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\help\help_search.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\help\help_view.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\help\helpsub.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\help\profile.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPA7.tmp" 
+Creating command line "link.exe -lib /nologo /out:"..\..\..\lib\help.lib"  ".\Debug\help.obj" ".\Debug\help_search.obj" ".\Debug\help_view.obj" ".\Debug\helpsub.obj" ".\Debug\profile.obj" "
+<h3>Output Window</h3>
+Compiling...
+help.c
+help_search.c
+help_view.c
+helpsub.c
+profile.c
+Creating library...
+<h3>
+--------------------Configuration: image - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPA8.tmp" with contents
+[
+/nologo /Zp4 /MLd /W3 /Gm /GX /ZI /Od /I "../../../../../include" /I "../../../../../include/window" /I "../../../../../include/project" /I "../../../../../include/image" /I "../../../../../include/hal" /D "_DEBUG" /D "_KERN200" /D "_EMULATE_" /FR"Debug/" /Fp"Debug/image.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\BmpCvert.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\DrawImg.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\DrawJpeg.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\DrawPng.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\drawwbmp.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\filesys.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\plximg.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\gif\dgif.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\gif\EGIF_LIB.C"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\gif\gif_fsm.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\gif\GIF_HASH.C"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\gif\gif_lwz.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\gif\mymemmgr.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\djpeg.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JCAPIMIN.C"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JCAPISTD.C"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JCCOEFCT.C"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JCCOLOR.C"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JCDCTMGR.C"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JCHUFF.C"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JCINIT.C"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JCMAINCT.C"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JCMARKER.C"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JCMASTER.C"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\jcomapi.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JCPARAM.C"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JCPHUFF.C"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JCPREPCT.C"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JCSAMPLE.C"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JCTRANS.C"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\jdapimin.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\jdapistd.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JDATADST.C"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JDATASRC.C"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\jdcoefct.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\jdcolor.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\jddctmgr.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\jdhuff.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\jdinput.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\jdmainct.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\jdmarker.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\jdmaster.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JDMERGE.C"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\jdphuff.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\jdpostct.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\jdsample.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JDTRANS.C"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JERROR.C"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JFDCTFLT.C"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JFDCTFST.C"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JFDCTINT.C"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JIDCTFLT.C"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\jidctfst.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\jidctint.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JIDCTRED.C"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\jmemmgr.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JMEMNOBS.C"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JQUANT1.C"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JQUANT2.C"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\jutils.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\png\png.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\png\pngerror.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\png\pngget.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\png\pngmem.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\png\pngpread.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\png\pngread.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\png\pngrio.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\png\pngrtran.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\png\pngrutil.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\png\pngset.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\png\pngtrans.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\png\pngvcrd.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\png\pngwio.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\png\pngwrite.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\png\pngwtran.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\png\pngwutil.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPA8.tmp" 
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPA9.tmp" with contents
+[
+/nologo /out:"../../../../../lib/hpimage.lib" 
+".\Debug\BmpCvert.obj"
+".\Debug\DrawImg.obj"
+".\Debug\DrawJpeg.obj"
+".\Debug\DrawPng.obj"
+".\Debug\drawwbmp.obj"
+".\Debug\filesys.obj"
+".\Debug\plximg.obj"
+".\Debug\dgif.obj"
+".\Debug\EGIF_LIB.OBJ"
+".\Debug\gif_fsm.obj"
+".\Debug\GIF_HASH.OBJ"
+".\Debug\gif_lwz.obj"
+".\Debug\mymemmgr.obj"
+".\Debug\djpeg.obj"
+".\Debug\JCAPIMIN.OBJ"
+".\Debug\JCAPISTD.OBJ"
+".\Debug\JCCOEFCT.OBJ"
+".\Debug\JCCOLOR.OBJ"
+".\Debug\JCDCTMGR.OBJ"
+".\Debug\JCHUFF.OBJ"
+".\Debug\JCINIT.OBJ"
+".\Debug\JCMAINCT.OBJ"
+".\Debug\JCMARKER.OBJ"
+".\Debug\JCMASTER.OBJ"
+".\Debug\jcomapi.obj"
+".\Debug\JCPARAM.OBJ"
+".\Debug\JCPHUFF.OBJ"
+".\Debug\JCPREPCT.OBJ"
+".\Debug\JCSAMPLE.OBJ"
+".\Debug\JCTRANS.OBJ"
+".\Debug\jdapimin.obj"
+".\Debug\jdapistd.obj"
+".\Debug\JDATADST.OBJ"
+".\Debug\JDATASRC.OBJ"
+".\Debug\jdcoefct.obj"
+".\Debug\jdcolor.obj"
+".\Debug\jddctmgr.obj"
+".\Debug\jdhuff.obj"
+".\Debug\jdinput.obj"
+".\Debug\jdmainct.obj"
+".\Debug\jdmarker.obj"
+".\Debug\jdmaster.obj"
+".\Debug\JDMERGE.OBJ"
+".\Debug\jdphuff.obj"
+".\Debug\jdpostct.obj"
+".\Debug\jdsample.obj"
+".\Debug\JDTRANS.OBJ"
+".\Debug\JERROR.OBJ"
+".\Debug\JFDCTFLT.OBJ"
+".\Debug\JFDCTFST.OBJ"
+".\Debug\JFDCTINT.OBJ"
+".\Debug\JIDCTFLT.OBJ"
+".\Debug\jidctfst.obj"
+".\Debug\jidctint.obj"
+".\Debug\JIDCTRED.OBJ"
+".\Debug\jmemmgr.obj"
+".\Debug\JMEMNOBS.OBJ"
+".\Debug\JQUANT1.OBJ"
+".\Debug\JQUANT2.OBJ"
+".\Debug\jutils.obj"
+".\Debug\png.obj"
+".\Debug\pngerror.obj"
+".\Debug\pngget.obj"
+".\Debug\pngmem.obj"
+".\Debug\pngpread.obj"
+".\Debug\pngread.obj"
+".\Debug\pngrio.obj"
+".\Debug\pngrtran.obj"
+".\Debug\pngrutil.obj"
+".\Debug\pngset.obj"
+".\Debug\pngtrans.obj"
+".\Debug\pngvcrd.obj"
+".\Debug\pngwio.obj"
+".\Debug\pngwrite.obj"
+".\Debug\pngwtran.obj"
+".\Debug\pngwutil.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPA9.tmp"
+<h3>Output Window</h3>
+Compiling...
+BmpCvert.c
+d:\computerfile\program\codeinfomation\btp-04_beta_2.6\src_emu\src\imagelib\image\src\bmpcvert.c(403) : warning C4013: 'ASSERT' undefined; assuming extern returning int
+DrawImg.c
+d:\computerfile\program\codeinfomation\btp-04_beta_2.6\src_emu\src\imagelib\image\src\drawimg.c(727) : warning C4101: 'pImgObj' : unreferenced local variable
+DrawJpeg.c
+d:\computerfile\program\codeinfomation\btp-04_beta_2.6\src_emu\src\imagelib\image\src\drawjpeg.c(180) : warning C4133: '=' : incompatible types - from 'void (__cdecl *)(void *)' to 'int (__cdecl *)(void *)'
+d:\computerfile\program\codeinfomation\btp-04_beta_2.6\src_emu\src\imagelib\image\src\drawjpeg.c(273) : warning C4133: '=' : incompatible types - from 'void (__cdecl *)(void *)' to 'int (__cdecl *)(void *)'
+d:\computerfile\program\codeinfomation\btp-04_beta_2.6\src_emu\src\imagelib\image\src\drawjpeg.c(1060) : warning C4013: 'ASSERT' undefined; assuming extern returning int
+d:\computerfile\program\codeinfomation\btp-04_beta_2.6\src_emu\src\imagelib\image\src\drawjpeg.c(1118) : warning C4133: '=' : incompatible types - from 'void (__cdecl *)(void *)' to 'int (__cdecl *)(void *)'
+DrawPng.c
+d:\computerfile\program\codeinfomation\btp-04_beta_2.6\src_emu\src\imagelib\image\src\drawpng.c(39) : warning C4013: 'malloc' undefined; assuming extern returning int
+d:\computerfile\program\codeinfomation\btp-04_beta_2.6\src_emu\src\imagelib\image\src\drawpng.c(69) : warning C4013: 'free' undefined; assuming extern returning int
+d:\computerfile\program\codeinfomation\btp-04_beta_2.6\src_emu\src\imagelib\image\src\drawpng.c(322) : warning C4013: 'png_destroy_struct_2' undefined; assuming extern returning int
+drawwbmp.c
+d:\computerfile\program\codeinfomation\btp-04_beta_2.6\src_emu\src\imagelib\image\src\drawwbmp.c(39) : warning C4013: 'ASSERT' undefined; assuming extern returning int
+filesys.c
+plximg.c
+dgif.c
+EGIF_LIB.C
+d:\computerfile\program\codeinfomation\btp-04_beta_2.6\src_emu\src\imagelib\image\src\gif\egif_lib.c(77) : warning C4013: 'malloc' undefined; assuming extern returning int
+d:\computerfile\program\codeinfomation\btp-04_beta_2.6\src_emu\src\imagelib\image\src\gif\egif_lib.c(94) : warning C4013: 'free' undefined; assuming extern returning int
+gif_fsm.c
+GIF_HASH.C
+d:\computerfile\program\codeinfomation\btp-04_beta_2.6\src_emu\src\imagelib\image\src\gif\gif_hash.c(55) : warning C4013: 'malloc' undefined; assuming extern returning int
+gif_lwz.c
+mymemmgr.c
+djpeg.c
+JCAPIMIN.C
+JCAPISTD.C
+JCCOEFCT.C
+JCCOLOR.C
+JCDCTMGR.C
+JCHUFF.C
+JCINIT.C
+JCMAINCT.C
+JCMARKER.C
+JCMASTER.C
+jcomapi.c
+JCPARAM.C
+JCPHUFF.C
+JCPREPCT.C
+JCSAMPLE.C
+JCTRANS.C
+jdapimin.c
+jdapistd.c
+JDATADST.C
+JDATASRC.C
+jdcoefct.c
+jdcolor.c
+jddctmgr.c
+jdhuff.c
+jdinput.c
+jdmainct.c
+jdmarker.c
+jdmaster.c
+JDMERGE.C
+jdphuff.c
+jdpostct.c
+jdsample.c
+JDTRANS.C
+JERROR.C
+d:\computerfile\program\codeinfomation\btp-04_beta_2.6\src_emu\src\imagelib\image\src\jpeg\jerror.c(181) : warning C4013: 'sprintf' undefined; assuming extern returning int
+JFDCTFLT.C
+JFDCTFST.C
+JFDCTINT.C
+JIDCTFLT.C
+jidctfst.c
+jidctint.c
+JIDCTRED.C
+jmemmgr.c
+JMEMNOBS.C
+JQUANT1.C
+JQUANT2.C
+jutils.c
+png.c
+pngerror.c
+pngget.c
+pngmem.c
+pngpread.c
+pngread.c
+pngrio.c
+pngrtran.c
+pngrutil.c
+pngset.c
+pngtrans.c
+pngvcrd.c
+pngwio.c
+pngwrite.c
+pngwtran.c
+pngwutil.c
+Creating library...
+<h3>
+--------------------Configuration: imm - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPAA.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /X /I ".\\" /I "..\..\include" /I "..\..\include\window" /I "..\..\include\image" /I "..\..\include\project" /I "..\..\include\ziime" /D "_EMULATE" /D "HANWANG_HW" /D "HOPEN_OS" /D "WIN32" /D "_DEBUG" /D "_LIB" /D "_MBCS" /D "IME_KEYDOWN_USE" /D "IME_ICON_USE" /D "ZI8_NO_GLOBAL_VARIABLES" /D "OEM_DEF" /Fp"Debug/imm.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imm\imc.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imm\ime.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imm\imm.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imm\IMECtrl\calledit.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imm\IMECtrl\defime.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imm\IMECtrl\imeedit.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imm\IMECtrl\imeeditex.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imm\IMECtrl\langsel.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imm\IMEMod\imeabc.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imm\IMEMod\imenum.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imm\IMEMod\imesym.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imm\ZiIME\zidata\English\Zi8DatENPRC.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imm\ZiIME\zidata\Chinese\PRC\Zi8DatZH.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imm\ZiIME\zidata\zi8sdata.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imm\ZiIME\ziabc.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imm\ZiIME\zichn.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imm\ZiIME\ziime.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imm\ZiIME\ziphn.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imm\ZiIME\zispell.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\imm\ZiIME\zistk.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPAA.tmp" 
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPAB.tmp" with contents
+[
+/nologo /out:"..\..\lib\imm.lib" 
+".\Debug\imc.obj"
+".\Debug\ime.obj"
+".\Debug\imm.obj"
+".\Debug\calledit.obj"
+".\Debug\defime.obj"
+".\Debug\imeedit.obj"
+".\Debug\imeeditex.obj"
+".\Debug\langsel.obj"
+".\Debug\imeabc.obj"
+".\Debug\imenum.obj"
+".\Debug\imesym.obj"
+".\Debug\Zi8DatENPRC.obj"
+".\Debug\Zi8DatZH.obj"
+".\Debug\zi8sdata.obj"
+".\Debug\ziabc.obj"
+".\Debug\zichn.obj"
+".\Debug\ziime.obj"
+".\Debug\ziphn.obj"
+".\Debug\zispell.obj"
+".\Debug\zistk.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPAB.tmp"
+<h3>Output Window</h3>
+Compiling...
+imc.c
+ime.c
+imm.c
+calledit.c
+defime.c
+imeedit.c
+imeeditex.c
+langsel.c
+imeabc.c
+imenum.c
+imesym.c
+Zi8DatENPRC.c
+Zi8DatZH.c
+zi8sdata.c
+ziabc.c
+zichn.c
+ziime.c
+ziphn.c
+zispell.c
+zistk.c
+Creating library...
+<h3>
+--------------------Configuration: MEdrv - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPAC.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /X /I "../../include" /I "../../include20" /I "../../include20/ddi" /I "../../include/project" /I "../../include/me" /I "../../include/window" /I "../../include/image" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_EMULATE_" /D "_TCPIPMEMDEB_" /D "_TCPIPX86_" /D "_TCPIPASSERT_" /D "LITTLE_ENDIAN" /D "_IP_DWBROADCAST_" /D "_TCPIP_BULID_VC_" /D "_TCPIP_NOUI_" /D "TCPIP_SINGELMODUL" /D "_KERN200" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\medrv\cbspdu.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\medrv\me_at.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\medrv\me_comn.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\medrv\me_func.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\medrv\me_init.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\medrv\me_wnd.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\medrv\smspdu.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPAC.tmp" 
+Creating command line "link.exe -lib /nologo /out:"..\..\lib\MEdrv.lib"  ".\Debug\cbspdu.obj" ".\Debug\me_at.obj" ".\Debug\me_comn.obj" ".\Debug\me_func.obj" ".\Debug\me_init.obj" ".\Debug\me_wnd.obj" ".\Debug\smspdu.obj" "
+<h3>Output Window</h3>
+Compiling...
+cbspdu.c
+me_at.c
+me_comn.c
+me_func.c
+me_init.c
+me_wnd.c
+smspdu.c
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: MuLanguage - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPAD.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "..\..\include" /I "..\..\include\project" /I "..\..\include\window" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/MuLanguage.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\mullanguage\mulang.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPAD.tmp" 
+Creating command line "link.exe -lib /nologo /out:"..\..\lib\mulanguage.lib"  ".\Debug\mulang.obj" "
+<h3>Output Window</h3>
+Compiling...
+mulang.c
+Creating library...
+<h3>
+--------------------Configuration: multiplexer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPAE.tmp" with contents
+[
+/nologo /MLd /W4 /Gm /GX /ZI /Od /X /I "..\..\include20" /I "..\..\include20\ddi" /I "..\..\include\window" /I "..\..\include\project" /I "..\..\include\me" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "_EMULATE_" /Fp"Debug/multiplexer.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\multiplexer\multiplex\multchnl.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\multiplexer\multiplex\muxagent.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\multiplexer\multiplex\siem_mux.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\multiplexer\multiplex\ti_mux.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\multiplexer\multiplex\wave_mux.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPAE.tmp" 
+Creating command line "link.exe -lib /nologo /out:"..\..\lib\multiplexer.lib"  ".\Debug\multchnl.obj" ".\Debug\muxagent.obj" ".\Debug\siem_mux.obj" ".\Debug\ti_mux.obj" ".\Debug\wave_mux.obj" "
+<h3>Output Window</h3>
+Compiling...
+multchnl.c
+d:\computerfile\program\codeinfomation\btp-04_beta_2.6\src_emu\src\multiplexer\multiplex\multchnl.c(509) : warning C4013: 'printf' undefined; assuming extern returning int
+muxagent.c
+siem_mux.c
+d:\computerfile\program\codeinfomation\btp-04_beta_2.6\src_emu\src\multiplexer\multiplex\siem_mux.c(367) : warning C4013: 'printf' undefined; assuming extern returning int
+ti_mux.c
+wave_mux.c
+Creating library...
+<h3>
+--------------------Configuration: network - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPAF.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "..\..\..\include" /I "..\..\..\include\window" /I "..\..\..\include\project" /I "..\..\..\include\image" /I "..\..\..\include\public" /I "..\..\..\include\setup" /I "..\..\..\include\me" /I "..\..\..\include\ab" /I "..\..\..\include\callapp" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/network.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\network\callbarring.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\network\calldivert.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\network\network_main.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\network\network_misc.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\network\networks.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\network\ss_ussd.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPAF.tmp" 
+Creating command line "link.exe -lib /nologo /out:"..\..\..\lib\network.lib"  ".\Debug\callbarring.obj" ".\Debug\calldivert.obj" ".\Debug\network_main.obj" ".\Debug\network_misc.obj" ".\Debug\networks.obj" ".\Debug\ss_ussd.obj" "
+<h3>Output Window</h3>
+Compiling...
+callbarring.c
+calldivert.c
+network_main.c
+network_misc.c
+networks.c
+ss_ussd.c
+Creating library...
+<h3>
+--------------------Configuration: ObjDebug - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPB0.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /X /I "../../include/project" /I "../../include" /I "../../include/window" /I "../../include/image" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/ObjDebug.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\objdebug\objdbg.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPB0.tmp" 
+Creating command line "link.exe -lib /nologo /out:"..\..\lib\ObjDebug.lib"  ".\Debug\objdbg.obj" "
+<h3>Output Window</h3>
+Compiling...
+objdbg.c
+Creating library...
+<h3>
+--------------------Configuration: Progman - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPB1.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /X /I "../../include/sms" /I "../../include/callapp" /I "../../include" /I "../../include/hopen" /I "../../include/project" /I "../../include/window" /I "../../include/image" /I "../../include/me" /I "../../include/setup" /I "../../include/public" /I "../../include/ab" /I "../../include/benefon" /I "../../include/browser" /I "../../include/pm" /D "DEBUG" /D "_EMULATE_" /D "EMULATION" /D "_HOPEN" /D "_DEBUG" /D "_KERN300" /D "WIN32" /D "_863BIRD_" /Fp"Debug/Progman.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\progman\AppDesk.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\progman\AppDirs.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\progman\AppFile.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\progman\AppGrp.C"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\progman\AppMain.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\progman\AppPath.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\progman\chongdian.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\progman\compatable.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\progman\GpsApp.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\progman\group.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\progman\hook.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\progman\NotiProg.C"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\progman\path.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\progman\PMALARM.C"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\progman\PMI.C"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\progman\PowerOff.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\progman\Progman.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\progman\siminit.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPB1.tmp" 
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPB2.tmp" with contents
+[
+/nologo /out:"..\..\lib\Progman.lib" 
+".\Debug\AppDesk.obj"
+".\Debug\AppDirs.obj"
+".\Debug\AppFile.obj"
+".\Debug\AppGrp.obj"
+".\Debug\AppMain.obj"
+".\Debug\AppPath.obj"
+".\Debug\chongdian.obj"
+".\Debug\compatable.obj"
+".\Debug\GpsApp.obj"
+".\Debug\group.obj"
+".\Debug\hook.obj"
+".\Debug\NotiProg.obj"
+".\Debug\path.obj"
+".\Debug\PMALARM.OBJ"
+".\Debug\PMI.OBJ"
+".\Debug\PowerOff.obj"
+".\Debug\Progman.obj"
+".\Debug\siminit.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPB2.tmp"
+<h3>Output Window</h3>
+Compiling...
+AppDesk.c
+AppDirs.c
+AppFile.c
+AppGrp.C
+AppMain.c
+AppPath.c
+chongdian.c
+compatable.c
+GpsApp.c
+group.c
+hook.c
+NotiProg.C
+path.c
+PMALARM.C
+PMI.C
+PowerOff.c
+Progman.c
+siminit.c
+Creating library...
+<h3>
+--------------------Configuration: registry - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPB3.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "..\..\include\project" /I "..\..\include\window" /I "..\..\include\image" /I "..\..\include" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/registry.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\registry\reg_curr.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\registry\reg_save.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\registry\reginit.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\registry\registry.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPB3.tmp" 
+Creating command line "link.exe -lib /nologo /out:"..\..\lib\registry.lib"  ".\Debug\reg_curr.obj" ".\Debug\reg_save.obj" ".\Debug\reginit.obj" ".\Debug\registry.obj" "
+<h3>Output Window</h3>
+Compiling...
+reg_curr.c
+reg_save.c
+reginit.c
+registry.c
+Creating library...
+<h3>
+--------------------Configuration: setup - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPB4.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /X /I "..\..\..\include" /I "..\..\..\include\setup" /I "..\..\..\include\public" /I "..\..\..\include20" /I "..\..\..\include\sys" /I "..\..\..\include\window" /I "..\..\..\include\image" /I "..\..\..\include\project" /I "..\..\..\include\me" /I "..\..\..\include\callapp" /I "..\..\..\include\ab" /I "..\..\..\include\benefon" /I "..\..\..\include/pm" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/setup.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\mobilesetting\AutoCloseClew.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\mobilesetting\AutoCloseOpen.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\mobilesetting\CallColorThemeSetting.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\mobilesetting\CallDateFormat.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\mobilesetting\CallDateOnOptions.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\mobilesetting\CallKeyLockSetting.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\mobilesetting\CallLevelAdjuster.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\mobilesetting\CallSelZoneUsedWindow.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\mobilesetting\CallShortCutSetting.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\mobilesetting\CallTimeFormat.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\mobilesetting\CallTimeZone.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\mobilesetting\CallUnitSetting.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\mobilesetting\displaysetting.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\mobilesetting\GenPhoSetting.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\mobilesetting\GPSTimeManager.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\mobilesetting\LangSettingList.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\mobilesetting\LevAdjControl.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\mobilesetting\mobilesetting.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\mobilesetting\SettInfoProcBuf.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\mobilesetting\timeediting.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\mobilesetting\timesetting.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\scenemode\CallAlertGrp.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\scenemode\callcreatenewmode.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\scenemode\CallMissedEvent.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\scenemode\CallProfileList.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\scenemode\callprofilename.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\scenemode\CallRingMode.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\scenemode\callringsetwindow.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\scenemode\CallSelAlertGrp.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\scenemode\GetSetSMInfo.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\scenemode\profile.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\scenemode\profilemode.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\securitysetting\FixedDial.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\securitysetting\ModifyPassword.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\securitysetting\NewCode.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\securitysetting\PhoneLock.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\securitysetting\securitysetting.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\securitysetting\setupbutton.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\positioning\CallEditGPSName.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\positioning\CallGPSSettingInfoView.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\positioning\CallSelGPSIcon.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\positioning\CallSetGPSNMEA.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\positioning\CallSetGPSOpti.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\positioning\CallSetGPSRefIntCha.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\positioning\CallSetGPSRefIntvl.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\positioning\GetSetGPSMInfo.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\positioning\GPSProfileSettingList.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\positioning\positioningsetting.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\personal\cartoon.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\personal\cartoon_pre.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\personal\GifInterface.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\personal\MusicSetting.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\personal\personal.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\personal\Salutatory.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\callsetting\MBCallServ.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\setdial\setdial.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\connectivity\CallConnectionSetting.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\connectivity\CallConSettingList.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\connectivity\CallCreateNewConnection.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\connectivity\CallDatacallSetting.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\connectivity\CallEditConnHomepage.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\connectivity\CallEditConnLogin.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\connectivity\CallEditConnName.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\connectivity\CallEditConnPort.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\connectivity\CallEditDialupNum.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\connectivity\CallEditGateWay.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\connectivity\CallEditGPRSAccPoint.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\connectivity\CallGPRSSetting.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\connectivity\CallMsgingSetting.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\connectivity\CallSelConnAuthen.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\connectivity\CallSelConnBearer.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\connectivity\CallSelDatacalTpSp.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\connectivity\connectivity.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\connectivity\GSMRadioSetting.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\ModemSetting\modemsetting.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\AccessorySetting\AccessorySetting.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\AccessorySetting\AccSettingOptList.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\setupmenulist\SettingMenuList.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\projectmode\project_AT.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\projectmode\project_memory.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\projectmode\project_SMS_FTA.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\projectmode\ProjectMode.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\menumanage\FMenu.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\setup\menumanage\SMenu.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPB4.tmp" 
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPB5.tmp" with contents
+[
+/nologo /out:"..\..\..\lib\setup.lib" 
+".\Debug\AutoCloseClew.obj"
+".\Debug\AutoCloseOpen.obj"
+".\Debug\CallColorThemeSetting.obj"
+".\Debug\CallDateFormat.obj"
+".\Debug\CallDateOnOptions.obj"
+".\Debug\CallKeyLockSetting.obj"
+".\Debug\CallLevelAdjuster.obj"
+".\Debug\CallSelZoneUsedWindow.obj"
+".\Debug\CallShortCutSetting.obj"
+".\Debug\CallTimeFormat.obj"
+".\Debug\CallTimeZone.obj"
+".\Debug\CallUnitSetting.obj"
+".\Debug\displaysetting.obj"
+".\Debug\GenPhoSetting.obj"
+".\Debug\GPSTimeManager.obj"
+".\Debug\LangSettingList.obj"
+".\Debug\LevAdjControl.obj"
+".\Debug\mobilesetting.obj"
+".\Debug\SettInfoProcBuf.obj"
+".\Debug\timeediting.obj"
+".\Debug\timesetting.obj"
+".\Debug\CallAlertGrp.obj"
+".\Debug\callcreatenewmode.obj"
+".\Debug\CallMissedEvent.obj"
+".\Debug\CallProfileList.obj"
+".\Debug\callprofilename.obj"
+".\Debug\CallRingMode.obj"
+".\Debug\callringsetwindow.obj"
+".\Debug\CallSelAlertGrp.obj"
+".\Debug\GetSetSMInfo.obj"
+".\Debug\profile.obj"
+".\Debug\profilemode.obj"
+".\Debug\FixedDial.obj"
+".\Debug\ModifyPassword.obj"
+".\Debug\NewCode.obj"
+".\Debug\PhoneLock.obj"
+".\Debug\securitysetting.obj"
+".\Debug\setupbutton.obj"
+".\Debug\CallEditGPSName.obj"
+".\Debug\CallGPSSettingInfoView.obj"
+".\Debug\CallSelGPSIcon.obj"
+".\Debug\CallSetGPSNMEA.obj"
+".\Debug\CallSetGPSOpti.obj"
+".\Debug\CallSetGPSRefIntCha.obj"
+".\Debug\CallSetGPSRefIntvl.obj"
+".\Debug\GetSetGPSMInfo.obj"
+".\Debug\GPSProfileSettingList.obj"
+".\Debug\positioningsetting.obj"
+".\Debug\cartoon.obj"
+".\Debug\cartoon_pre.obj"
+".\Debug\GifInterface.obj"
+".\Debug\MusicSetting.obj"
+".\Debug\personal.obj"
+".\Debug\Salutatory.obj"
+".\Debug\MBCallServ.obj"
+".\Debug\setdial.obj"
+".\Debug\CallConnectionSetting.obj"
+".\Debug\CallConSettingList.obj"
+".\Debug\CallCreateNewConnection.obj"
+".\Debug\CallDatacallSetting.obj"
+".\Debug\CallEditConnHomepage.obj"
+".\Debug\CallEditConnLogin.obj"
+".\Debug\CallEditConnName.obj"
+".\Debug\CallEditConnPort.obj"
+".\Debug\CallEditDialupNum.obj"
+".\Debug\CallEditGateWay.obj"
+".\Debug\CallEditGPRSAccPoint.obj"
+".\Debug\CallGPRSSetting.obj"
+".\Debug\CallMsgingSetting.obj"
+".\Debug\CallSelConnAuthen.obj"
+".\Debug\CallSelConnBearer.obj"
+".\Debug\CallSelDatacalTpSp.obj"
+".\Debug\connectivity.obj"
+".\Debug\GSMRadioSetting.obj"
+".\Debug\modemsetting.obj"
+".\Debug\AccessorySetting.obj"
+".\Debug\AccSettingOptList.obj"
+".\Debug\SettingMenuList.obj"
+".\Debug\project_AT.obj"
+".\Debug\project_memory.obj"
+".\Debug\project_SMS_FTA.obj"
+".\Debug\ProjectMode.obj"
+".\Debug\FMenu.obj"
+".\Debug\SMenu.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPB5.tmp"
+<h3>Output Window</h3>
+Compiling...
+AutoCloseClew.c
+AutoCloseOpen.c
+CallColorThemeSetting.c
+CallDateFormat.c
+CallDateOnOptions.c
+CallKeyLockSetting.c
+CallLevelAdjuster.c
+CallSelZoneUsedWindow.c
+CallShortCutSetting.c
+CallTimeFormat.c
+CallTimeZone.c
+CallUnitSetting.c
+displaysetting.c
+GenPhoSetting.c
+GPSTimeManager.c
+LangSettingList.c
+LevAdjControl.c
+mobilesetting.c
+SettInfoProcBuf.c
+timeediting.c
+timesetting.c
+CallAlertGrp.c
+callcreatenewmode.c
+CallMissedEvent.c
+CallProfileList.c
+callprofilename.c
+CallRingMode.c
+callringsetwindow.c
+CallSelAlertGrp.c
+GetSetSMInfo.c
+profile.c
+profilemode.c
+FixedDial.c
+ModifyPassword.c
+NewCode.c
+PhoneLock.c
+securitysetting.c
+setupbutton.c
+CallEditGPSName.c
+CallGPSSettingInfoView.c
+CallSelGPSIcon.c
+CallSetGPSNMEA.c
+CallSetGPSOpti.c
+CallSetGPSRefIntCha.c
+CallSetGPSRefIntvl.c
+GetSetGPSMInfo.c
+GPSProfileSettingList.c
+positioningsetting.c
+cartoon.c
+cartoon_pre.c
+GifInterface.c
+MusicSetting.c
+personal.c
+Salutatory.c
+MBCallServ.c
+setdial.c
+CallConnectionSetting.c
+CallConSettingList.c
+CallCreateNewConnection.c
+CallDatacallSetting.c
+CallEditConnHomepage.c
+CallEditConnLogin.c
+CallEditConnName.c
+CallEditConnPort.c
+CallEditDialupNum.c
+CallEditGateWay.c
+CallEditGPRSAccPoint.c
+CallGPRSSetting.c
+CallMsgingSetting.c
+CallSelConnAuthen.c
+CallSelConnBearer.c
+CallSelDatacalTpSp.c
+connectivity.c
+GSMRadioSetting.c
+modemsetting.c
+AccessorySetting.c
+AccSettingOptList.c
+SettingMenuList.c
+project_AT.c
+project_memory.c
+project_SMS_FTA.c
+ProjectMode.c
+FMenu.c
+SMenu.c
+Creating library...
+<h3>
+--------------------Configuration: smsdptch - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPB6.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "../../include" /I "../../include/window" /I "../../include/me" /I "../../include/project" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "GSM_SMS" /D "SMSDISPATCH_DEBUG" /D "SMSDISPATCH_ASSERT" /FR"Debug/" /Fp"Debug/smsdptch.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\smsdptch\smsdptch.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPB6.tmp" 
+Creating command line "link.exe -lib /nologo /out:"..\..\lib\smsdptch.lib"  ".\Debug\smsdptch.obj" "
+<h3>Output Window</h3>
+Compiling...
+smsdptch.c
+Creating library...
+<h3>
+--------------------Configuration: stk - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPB7.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "..\..\..\include" /I "..\..\..\include\project" /I "..\..\..\include\window" /I "..\..\..\include\image" /I "..\..\..\include\public" /I "..\..\..\include\me" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "_EMULATE_" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\stk\StkAT.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\stk\StkHide.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\stk\StkMain.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPB7.tmp" 
+Creating command line "link.exe -lib /nologo /out:"..\..\..\lib\stk.lib"  ".\Debug\StkAT.obj" ".\Debug\StkHide.obj" ".\Debug\StkMain.obj" "
+<h3>Output Window</h3>
+Compiling...
+StkAT.c
+StkHide.c
+StkMain.c
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: trafficlog - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPB8.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "../../../include" /I "../../../include/project" /I "../../../include/window" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/trafficlog.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\trafficlog\adjust.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\trafficlog\logdaemon.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\static_app\trafficlog\logdb.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPB8.tmp" 
+Creating command line "link.exe -lib /nologo /out:"..\..\..\lib\trafficlog.lib"  ".\Debug\adjust.obj" ".\Debug\logdaemon.obj" ".\Debug\logdb.obj" "
+<h3>Output Window</h3>
+Compiling...
+adjust.c
+logdaemon.c
+logdb.c
+Creating library...
+<h3>
+--------------------Configuration: Window - Win32 ST Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPB9.tmp" with contents
+[
+/nologo /Zp16 /MLd /W4 /Gm /Gi /GX /ZI /Od /I "../../src" /I "../../src/include" /I "../../../include" /I "../../../../../include" /I "../../../../../include/window" /I "../../../../../include/project" /I "../../../../../include/image" /D "_WINDOWS" /D "_MBCS" /D "WIN32" /D "_DEBUG" /D "_EMULATE_" /D __ST_PLX_GUI=1 /D "PIP_TRANS" /FR"Window___Win32_ST_Debug/" /Fp"Window___Win32_ST_Debug/Window.pch" /YX /Fo"Window___Win32_ST_Debug/" /Fd"Window___Win32_ST_Debug/" /FD /GZ /c 
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\apigdi.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\apirgn.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\clstbl.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\defwndbs.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\devdisp.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\devfont.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\devinput.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\devprn.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\devqueue.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\error.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\graphdev.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\message.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\msgqueue.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\rectmgr.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\resmgr.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\sysmetri.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\winclass.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\wincoord.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\winexpos.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\winmap.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\winmem.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\winobj.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\winpaint.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\winpos.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\winroot.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\wsapi.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\wscaret.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\wsclipbo.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\wscursor.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\wsgraph.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\wshook.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\wsinit.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\wsobmp.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\wsobrush.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\wsocur.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\wsodc.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\wsofont.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\wsopen.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\wsorgn.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\wsotable.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\wsthread.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\kernel\wstimer.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\fontdrv\fontdrv.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\main\wsmain.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\ui\apidlg.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\ui\apimenu.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\ui\apiscrol.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\ui\button.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\ui\colorscheme.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\ui\combobox.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\ui\defdlg.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\ui\defwnd.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\ui\listbox.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\ui\menuobj.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\ui\menuwnd.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\ui\mledit.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\ui\msgbox.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\ui\multilistbox.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\ui\numspin.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\ui\scroll.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\ui\static.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\ui\strspin.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\ui\wsui.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\misc\codepage.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\misc\memory.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\misc\wstime.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\hgos\filesys.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\hgos\inputmgr.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\hgos\osal.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\gui\window\src\mobile\xscale\winpda.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPB9.tmp" 
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPBA.tmp" with contents
+[
+/nologo /out:"../../../../../lib/window.lib" 
+".\Window___Win32_ST_Debug\apigdi.obj"
+".\Window___Win32_ST_Debug\apirgn.obj"
+".\Window___Win32_ST_Debug\clstbl.obj"
+".\Window___Win32_ST_Debug\defwndbs.obj"
+".\Window___Win32_ST_Debug\devdisp.obj"
+".\Window___Win32_ST_Debug\devfont.obj"
+".\Window___Win32_ST_Debug\devinput.obj"
+".\Window___Win32_ST_Debug\devprn.obj"
+".\Window___Win32_ST_Debug\devqueue.obj"
+".\Window___Win32_ST_Debug\error.obj"
+".\Window___Win32_ST_Debug\graphdev.obj"
+".\Window___Win32_ST_Debug\message.obj"
+".\Window___Win32_ST_Debug\msgqueue.obj"
+".\Window___Win32_ST_Debug\rectmgr.obj"
+".\Window___Win32_ST_Debug\resmgr.obj"
+".\Window___Win32_ST_Debug\sysmetri.obj"
+".\Window___Win32_ST_Debug\winclass.obj"
+".\Window___Win32_ST_Debug\wincoord.obj"
+".\Window___Win32_ST_Debug\winexpos.obj"
+".\Window___Win32_ST_Debug\winmap.obj"
+".\Window___Win32_ST_Debug\winmem.obj"
+".\Window___Win32_ST_Debug\winobj.obj"
+".\Window___Win32_ST_Debug\winpaint.obj"
+".\Window___Win32_ST_Debug\winpos.obj"
+".\Window___Win32_ST_Debug\winroot.obj"
+".\Window___Win32_ST_Debug\wsapi.obj"
+".\Window___Win32_ST_Debug\wscaret.obj"
+".\Window___Win32_ST_Debug\wsclipbo.obj"
+".\Window___Win32_ST_Debug\wscursor.obj"
+".\Window___Win32_ST_Debug\wsgraph.obj"
+".\Window___Win32_ST_Debug\wshook.obj"
+".\Window___Win32_ST_Debug\wsinit.obj"
+".\Window___Win32_ST_Debug\wsobmp.obj"
+".\Window___Win32_ST_Debug\wsobrush.obj"
+".\Window___Win32_ST_Debug\wsocur.obj"
+".\Window___Win32_ST_Debug\wsodc.obj"
+".\Window___Win32_ST_Debug\wsofont.obj"
+".\Window___Win32_ST_Debug\wsopen.obj"
+".\Window___Win32_ST_Debug\wsorgn.obj"
+".\Window___Win32_ST_Debug\wsotable.obj"
+".\Window___Win32_ST_Debug\wsthread.obj"
+".\Window___Win32_ST_Debug\wstimer.obj"
+".\Window___Win32_ST_Debug\fontdrv.obj"
+".\Window___Win32_ST_Debug\wsmain.obj"
+".\Window___Win32_ST_Debug\apidlg.obj"
+".\Window___Win32_ST_Debug\apimenu.obj"
+".\Window___Win32_ST_Debug\apiscrol.obj"
+".\Window___Win32_ST_Debug\button.obj"
+".\Window___Win32_ST_Debug\colorscheme.obj"
+".\Window___Win32_ST_Debug\combobox.obj"
+".\Window___Win32_ST_Debug\defdlg.obj"
+".\Window___Win32_ST_Debug\defwnd.obj"
+".\Window___Win32_ST_Debug\listbox.obj"
+".\Window___Win32_ST_Debug\menuobj.obj"
+".\Window___Win32_ST_Debug\menuwnd.obj"
+".\Window___Win32_ST_Debug\mledit.obj"
+".\Window___Win32_ST_Debug\msgbox.obj"
+".\Window___Win32_ST_Debug\multilistbox.obj"
+".\Window___Win32_ST_Debug\numspin.obj"
+".\Window___Win32_ST_Debug\scroll.obj"
+".\Window___Win32_ST_Debug\static.obj"
+".\Window___Win32_ST_Debug\strspin.obj"
+".\Window___Win32_ST_Debug\wsui.obj"
+".\Window___Win32_ST_Debug\codepage.obj"
+".\Window___Win32_ST_Debug\memory.obj"
+".\Window___Win32_ST_Debug\wstime.obj"
+".\Window___Win32_ST_Debug\filesys.obj"
+".\Window___Win32_ST_Debug\inputmgr.obj"
+".\Window___Win32_ST_Debug\osal.obj"
+".\Window___Win32_ST_Debug\winpda.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPBA.tmp"
+<h3>Output Window</h3>
+Compiling...
+apigdi.c
+apirgn.c
+clstbl.c
+defwndbs.c
+devdisp.c
+devfont.c
+devinput.c
+devprn.c
+devqueue.c
+error.c
+graphdev.c
+message.c
+msgqueue.c
+rectmgr.c
+resmgr.c
+sysmetri.c
+winclass.c
+wincoord.c
+winexpos.c
+winmap.c
+winmem.c
+winobj.c
+winpaint.c
+winpos.c
+winroot.c
+wsapi.c
+wscaret.c
+wsclipbo.c
+wscursor.c
+wsgraph.c
+wshook.c
+wsinit.c
+wsobmp.c
+wsobrush.c
+wsocur.c
+wsodc.c
+wsofont.c
+wsopen.c
+wsorgn.c
+wsotable.c
+wsthread.c
+wstimer.c
+fontdrv.c
+wsmain.c
+apidlg.c
+apimenu.c
+apiscrol.c
+button.c
+colorscheme.c
+combobox.c
+defdlg.c
+defwnd.c
+listbox.c
+menuobj.c
+menuwnd.c
+mledit.c
+msgbox.c
+multilistbox.c
+numspin.c
+scroll.c
+static.c
+strspin.c
+wsui.c
+codepage.c
+memory.c
+wstime.c
+filesys.c
+inputmgr.c
+osal.c
+winpda.c
+Creating library...
+<h3>
+--------------------Configuration: Bluetooth - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPBB.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "..\..\include" /I "..\..\include\window" /I "..\..\include\me" /I "..\..\include\project" /I "..\..\include\image" /I "..\..\include\public" /I "..\..\include\sys" /I "..\..\include\setup" /I "..\..\include\IVT\sdk" /I "..\..\include\IVT\stack" /I "..\..\include\bluetooth" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "_EMULATE_" /Fp"Debug/Bluetooth.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\BlueTooth\BtApi.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\BlueTooth\BtDelSelPaired.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\BlueTooth\BtDeviceNode.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\BlueTooth\BtFileOper.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\BlueTooth\BtHandfreeHeadset.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\BlueTooth\BtLowCall.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\BlueTooth\BtMain.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\BlueTooth\BtMsg.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\BlueTooth\BtMsgInfo.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\BlueTooth\BtPaired.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\BlueTooth\BtPairedDevNode.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\BlueTooth\BtPairedName.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\BlueTooth\BtPasscode.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\BlueTooth\BtPhoneName.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\BlueTooth\BtSearchDevices.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\BlueTooth\BtSendData.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\BlueTooth\BtSettings.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\BlueTooth\BtStatus.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\BlueTooth\BtThread.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\BlueTooth\BtViewMsg.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\BlueTooth\BtVisibility.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPBB.tmp" 
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPBC.tmp" with contents
+[
+/nologo /out:"..\..\lib\Bluetooth.lib" 
+".\Debug\BtApi.obj"
+".\Debug\BtDelSelPaired.obj"
+".\Debug\BtDeviceNode.obj"
+".\Debug\BtFileOper.obj"
+".\Debug\BtHandfreeHeadset.obj"
+".\Debug\BtLowCall.obj"
+".\Debug\BtMain.obj"
+".\Debug\BtMsg.obj"
+".\Debug\BtMsgInfo.obj"
+".\Debug\BtPaired.obj"
+".\Debug\BtPairedDevNode.obj"
+".\Debug\BtPairedName.obj"
+".\Debug\BtPasscode.obj"
+".\Debug\BtPhoneName.obj"
+".\Debug\BtSearchDevices.obj"
+".\Debug\BtSendData.obj"
+".\Debug\BtSettings.obj"
+".\Debug\BtStatus.obj"
+".\Debug\BtThread.obj"
+".\Debug\BtViewMsg.obj"
+".\Debug\BtVisibility.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPBC.tmp"
+<h3>Output Window</h3>
+Compiling...
+BtApi.c
+BtDelSelPaired.c
+BtDeviceNode.c
+BtFileOper.c
+BtHandfreeHeadset.c
+BtLowCall.c
+BtMain.c
+BtMsg.c
+BtMsgInfo.c
+BtPaired.c
+BtPairedDevNode.c
+BtPairedName.c
+BtPasscode.c
+BtPhoneName.c
+BtSearchDevices.c
+BtSendData.c
+BtSettings.c
+BtStatus.c
+BtThread.c
+BtViewMsg.c
+BtVisibility.c
+Creating library...
+<h3>
+--------------------Configuration: plxmm - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPBD.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "..\..\include" /I "..\..\include\project" /I "..\..\include\window" /I ".\amr\amrnb" /I ".\amr\amrwb" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "_EMULATE_" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\mmlib\amr\amrwb\dec_acelp.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\mmlib\amr\amrwb\dec_dtx.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\mmlib\amr\amrwb\dec_gain.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\mmlib\amr\amrwb\dec_if.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\mmlib\amr\amrwb\dec_lpc.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\mmlib\amr\amrwb\dec_main.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\mmlib\amr\amrwb\dec_rom.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\mmlib\amr\amrwb\dec_util.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\mmlib\amr\amrwb\if_rom.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\mmlib\amr\amrnb\amrconv.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\mmlib\amr\amrnb\amrdec.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\mmlib\amr\amrnb\sphdec.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\mmlib\amr\amrface.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\mmlib\plxmm.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPBD.tmp" 
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPBE.tmp" with contents
+[
+/nologo /out:"..\..\lib\plxmm.lib" 
+".\Debug\dec_acelp.obj"
+".\Debug\dec_dtx.obj"
+".\Debug\dec_gain.obj"
+".\Debug\dec_if.obj"
+".\Debug\dec_lpc.obj"
+".\Debug\dec_main.obj"
+".\Debug\dec_rom.obj"
+".\Debug\dec_util.obj"
+".\Debug\if_rom.obj"
+".\Debug\amrconv.obj"
+".\Debug\amrdec.obj"
+".\Debug\sphdec.obj"
+".\Debug\amrface.obj"
+".\Debug\plxmm.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPBE.tmp"
+<h3>Output Window</h3>
+Compiling...
+dec_acelp.c
+dec_dtx.c
+dec_gain.c
+dec_if.c
+dec_lpc.c
+dec_main.c
+dec_rom.c
+dec_util.c
+if_rom.c
+amrconv.c
+amrdec.c
+sphdec.c
+amrface.c
+plxmm.c
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: prioman - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPBF.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "..\..\include" /I "..\..\include\project" /I "..\..\include\window" /I "..\..\include\image" /I "..\..\include\setup" /I "..\..\include\public" /I "..\..\include\ab" /I "..\..\include\callapp" /I "..\..\include\me" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "_EMULATE_" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\prioman\playamr.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\prioman\playmidi.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\prioman\playmp3.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\prioman\playwave.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\prioman\prioman.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPBF.tmp" 
+Creating command line "link.exe -lib /nologo /out:"..\..\lib\prioman.lib"  ".\Debug\playamr.obj" ".\Debug\playmidi.obj" ".\Debug\playmp3.obj" ".\Debug\playwave.obj" ".\Debug\prioman.obj" "
+<h3>Output Window</h3>
+Compiling...
+playamr.c
+playmidi.c
+playmp3.c
+playwave.c
+prioman.c
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: wshell - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPC0.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /X /I "../../include" /I "../../include/hopen" /I "../../include/project" /I "../../include/window" /I "../../include/image" /I "../../include/me" /I "../../include/setup" /I "../../include/ab" /I "../../include/public" /D "DEBUG" /D "_EMULATE_" /D "EMULATION" /D "_DEBUG" /D "WIN32" /D "_DEBUG_" /Fr"Debug/" /Fp"Debug/wshell.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\wshell\App.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\wshell\main.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\wshell\str_public.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\wshell\temp.c"
+"D:\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\src\wshell\Testapp.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPC0.tmp" 
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPC1.tmp" with contents
+[
+/nologo /stack:0x400000 /subsystem:windows /dll /incremental:yes /pdb:"Debug/wshell.pdb" /map:"Debug/wshell.map" /debug /machine:I386 /nodefaultlib:"libclib" /nodefaultlib:"libcmt.lib" /nodefaultlib:"msvcrt.lib" /nodefaultlib:"libcd.lib" /nodefaultlib:"libcmtd.lib" /nodefaultlib:"libc.lib" /nodefaultlib /out:"Debug/wshell.dll" /implib:"Debug/wshell.lib" /pdbtype:sept 
+".\Debug\App.obj"
+".\Debug\main.obj"
+".\Debug\str_public.obj"
+".\Debug\temp.obj"
+".\Debug\Testapp.obj"
+"..\..\lib\display.lib"
+"..\..\lib\hopen30.lib"
+"..\..\lib\hp30emu.lib"
+"..\..\lib\libcs.lib"
+"..\..\lib\libm.lib"
+"..\..\lib\MEdrv.lib"
+"..\..\lib\MuLanguage.lib"
+"..\..\lib\multiplexer.lib"
+"..\..\lib\PLXzlib.lib"
+"..\..\lib\Progman.lib"
+"..\..\lib\public.lib"
+"..\..\lib\window.lib"
+"..\..\lib\Wap.lib"
+"..\..\lib\tcpip.lib"
+"..\..\lib\ssl.lib"
+"..\..\lib\mms.lib"
+"..\..\lib\cryptlib.lib"
+"..\..\lib\whttp.lib"
+"..\..\lib\app_call.lib"
+"..\..\lib\smsdptch.lib"
+"..\..\lib\imm.lib"
+"..\..\lib\app_message.lib"
+"..\..\lib\Dialer.lib"
+"..\..\lib\setup.lib"
+"..\..\lib\trafficlog.lib"
+"..\..\lib\game.lib"
+"..\..\lib\pim.lib"
+"..\..\lib\registry.lib"
+"..\..\lib\app_addressbook.lib"
+"..\..\lib\dlm.lib"
+"..\..\lib\BrsParser.lib"
+"..\..\lib\ftpsvr.lib"
+"..\..\lib\help.lib"
+"..\..\lib\CPHS application.lib"
+"..\..\lib\objdebug.lib"
+"..\..\lib\hpimage.lib"
+"..\..\lib\mail.lib"
+"..\..\lib\vCal.lib"
+"..\..\lib\Brskernel.lib"
+"..\..\lib\Bluetooth.lib"
+"..\..\lib\IVT\btstack.lib"
+"..\..\lib\IVT\btprofile.lib"
+"..\..\lib\IVT\btsdk.lib"
+"..\..\lib\IVT\btblock.lib"
+"..\..\lib\benefon\LocationModule.lib"
+"..\..\lib\zi8clib.lib"
+"..\..\lib\benefon\GPSMonitor.lib"
+"..\..\lib\prioman.lib"
+"..\..\lib\plxmm.lib"
+"\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\lib\Browser.lib"
+"\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\lib\APP_USBmodem.lib"
+"\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\lib\network.lib"
+"\computerfile\program\codeinfomation\BTP-04_BETA_2.6\src_emu\lib\stk.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPC1.tmp"
+<h3>Output Window</h3>
+Compiling...
+App.c
+main.c
+str_public.c
+temp.c
+Testapp.c
+Linking...
+   Creating library Debug/wshell.lib and object Debug/wshell.exp
+Creating temporary file "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPC5.bat" with contents
+[
+@echo off
+copy .\debug\wshell.dll ..\..\apps
+]
+Creating command line "C:\DOCUME~1\zysmart\LOCALS~1\Temp\RSPC5.bat"
+
+已复制         1 个文件。
+
+
+
+<h3>Results</h3>
+wshell.dll - 0 error(s), 16 warning(s)
+</pre>
+</body>
+</html>

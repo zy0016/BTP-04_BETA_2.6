@@ -1,0 +1,38 @@
+Line Counting Utility 1.4
+Copyright (C) 1998-2002 By Greg Wittmeyer - All Rights Reserved
+
+E:\VSSCheckDir\启明星\Emu\gui\display\src\新建文件夹\common\dispcomn.c: 42 lines, 1114 bytes
+E:\VSSCheckDir\启明星\Emu\gui\display\src\新建文件夹\common\disppdd.c: 105 lines, 3509 bytes
+E:\VSSCheckDir\启明星\Emu\gui\display\src\新建文件夹\common\fillline.c: 202 lines, 6840 bytes
+E:\VSSCheckDir\启明星\Emu\gui\display\src\新建文件夹\common\lineblt.c: 1398 lines, 38,047 bytes
+E:\VSSCheckDir\启明星\Emu\gui\display\src\新建文件夹\common\ropfunc.c: 252 lines, 7325 bytes
+E:\VSSCheckDir\启明星\Emu\gui\display\src\新建文件夹\common\scanline.c: 199 lines, 5052 bytes
+E:\VSSCheckDir\启明星\Emu\gui\display\src\新建文件夹\RGB\display.c: 337 lines, 8609 bytes
+E:\VSSCheckDir\启明星\Emu\gui\display\src\新建文件夹\RGB\RGB\rgb.c: 780 lines, 22,816 bytes
+E:\VSSCheckDir\启明星\Emu\gui\display\src\新建文件夹\rgbcom\bitblt.c: 451 lines, 13,372 bytes
+E:\VSSCheckDir\启明星\Emu\gui\display\src\新建文件夹\rgbcom\bltnto16.c: 349 lines, 11,546 bytes
+E:\VSSCheckDir\启明星\Emu\gui\display\src\新建文件夹\rgbcom\bltnto24.c: 466 lines, 15,235 bytes
+E:\VSSCheckDir\启明星\Emu\gui\display\src\新建文件夹\rgbcom\circle.c: 1409 lines, 47,431 bytes
+E:\VSSCheckDir\启明星\Emu\gui\display\src\新建文件夹\rgbcom\cursor.c: 129 lines, 3747 bytes
+E:\VSSCheckDir\启明星\Emu\gui\display\src\新建文件夹\rgbcom\dddline.c: 862 lines, 20,830 bytes
+E:\VSSCheckDir\启明星\Emu\gui\display\src\新建文件夹\rgbcom\dibitblt.c: 2123 lines, 63,268 bytes
+E:\VSSCheckDir\启明星\Emu\gui\display\src\新建文件夹\rgbcom\distrblt.c: 2910 lines, 98,559 bytes
+E:\VSSCheckDir\启明星\Emu\gui\display\src\新建文件夹\rgbcom\ellipse.c: 3930 lines, 121,690 bytes
+E:\VSSCheckDir\启明星\Emu\gui\display\src\新建文件夹\rgbcom\line.c: 2119 lines, 59,527 bytes
+E:\VSSCheckDir\启明星\Emu\gui\display\src\新建文件夹\rgbcom\patblt.c: 717 lines, 20,643 bytes
+E:\VSSCheckDir\启明星\Emu\gui\display\src\新建文件夹\rgbcom\polygon.c: 442 lines, 13,733 bytes
+E:\VSSCheckDir\启明星\Emu\gui\display\src\新建文件夹\rgbcom\rgbcom.c: 233 lines, 6040 bytes
+E:\VSSCheckDir\启明星\Emu\gui\display\src\新建文件夹\rgbcom\screen.c: 143 lines, 4543 bytes
+E:\VSSCheckDir\启明星\Emu\gui\display\src\新建文件夹\rgbcom\strblt.c: 1146 lines, 38,023 bytes
+E:\VSSCheckDir\启明星\Emu\gui\display\src\新建文件夹\include\dispcomn.h: 140 lines, 4462 bytes
+E:\VSSCheckDir\启明星\Emu\gui\display\src\新建文件夹\include\hpdisp.h: 705 lines, 24,526 bytes
+E:\VSSCheckDir\启明星\Emu\gui\display\src\新建文件夹\include\pattern.h: 379 lines, 10,149 bytes
+E:\VSSCheckDir\启明星\Emu\gui\display\src\新建文件夹\RGB\RGB\dispconf.h: 11 lines, 193 bytes
+E:\VSSCheckDir\启明星\Emu\gui\display\src\新建文件夹\rgbcom\dispfunc.h: 281 lines, 14,193 bytes
+Total files: 28
+Total lines: 22,260
+Total uncommented, non-blank lines: 16,570
+Total bytes: 685,022
+Average lines: 795
+Average bytes: 24,465
+Report date: 6-Feb-2004 3:46:41p

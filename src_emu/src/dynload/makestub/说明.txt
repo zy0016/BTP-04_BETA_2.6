@@ -1,0 +1,17 @@
+
+功能：该工具根据输入的函数功能表以及接口模板生成相应的stub汇编文件。
+
+输入参数：该工具的输入参数为两个文件：funcnamelist.txt、接口模板.s。
+其中函数功能表.txt的格式为：
+funcname1
+funcname2
+funcname3
+funcname4
+funcname5
+。。。。
+
+输出：相应于函数功能表的stub汇编文件。输出文件位于当前路径的stub子目录中。
+
+文件main.c为该工具的源码;
+文件template.s为接口模板；
+文件declare.h为funcnamelist.txt的范例；

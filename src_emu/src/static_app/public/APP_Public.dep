@@ -1,0 +1,48 @@
+# Microsoft Developer Studio Generated Dependency File, included by APP_Public.mak
+
+.\pub_control\MemManage.c : \
+	"..\..\..\include\image\hpimage.h"\
+	"..\..\..\include\project\app.h"\
+	"..\..\..\include\project\mullang.h"\
+	"..\..\..\include\project\plx_pdaex.h"\
+	"..\..\..\include\project\virtkey.h"\
+	"..\..\..\include\sys\reent.h"\
+	"..\..\..\include\window\hpdef.h"\
+	"..\..\..\include\window\windebug.h"\
+	"..\..\..\include\window\window.h"\
+	"..\..\..\include\window\winpda.h"\
+	".\pub_control\memmanage.h"\
+	
+
+.\pub_control\PicManage.c : \
+	"..\..\..\include\image\hpimage.h"\
+	"..\..\..\include\project\app.h"\
+	"..\..\..\include\project\mullang.h"\
+	"..\..\..\include\project\picmanage.h"\
+	"..\..\..\include\project\plx_pdaex.h"\
+	"..\..\..\include\project\virtkey.h"\
+	"..\..\..\include\sys\reent.h"\
+	"..\..\..\include\window\hpdef.h"\
+	"..\..\..\include\window\windebug.h"\
+	"..\..\..\include\window\window.h"\
+	"..\..\..\include\window\winpda.h"\
+	
+
+.\pub_control\Recipient.c : \
+	"..\..\..\include\image\hpimage.h"\
+	"..\..\..\include\project\app.h"\
+	"..\..\..\include\project\mullang.h"\
+	"..\..\..\include\project\phonebookext.h"\
+	"..\..\..\include\project\plx_pdaex.h"\
+	"..\..\..\include\project\pubapp.h"\
+	"..\..\..\include\project\recipient.h"\
+	"..\..\..\include\project\str_plx.h"\
+	"..\..\..\include\project\str_public.h"\
+	"..\..\..\include\project\vcaglb.h"\
+	"..\..\..\include\project\virtkey.h"\
+	"..\..\..\include\sys\reent.h"\
+	"..\..\..\include\window\hpdef.h"\
+	"..\..\..\include\window\windebug.h"\
+	"..\..\..\include\window\window.h"\
+	"..\..\..\include\window\winpda.h"\
+	

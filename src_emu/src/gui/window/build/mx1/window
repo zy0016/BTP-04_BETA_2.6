@@ -1,0 +1,255 @@
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+../../src/kernel/wsapi.c: In function `DrawIconFromFileEx':
+../../src/kernel/wsapi.c:4162: warning: suggest parentheses around && within ||
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+../../src/kernel/apirgn.c:150: warning: `UnusedFunc' defined but not used
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+../../src/kernel/clstbl.c: In function `CLSTBL_Delete':
+../../src/kernel/clstbl.c:234: warning: comparison is always true due to limited range of data type
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+../../src/kernel/winobj.c: In function `WND_Destroy':
+../../src/kernel/winobj.c:678: warning: `hwndBrother' might be used uninitialized in this function
+../../src/kernel/winobj.c: In function `WND_EnumWindows':
+../../src/kernel/winobj.c:1518: warning: `pPreWin' might be used uninitialized in this function
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+../../src/kernel/winpaint.c: In function `WND_ScrollWindow':
+../../src/kernel/winpaint.c:994: warning: `pCaretWin' might be used uninitialized in this function
+../../src/kernel/winpaint.c: At top level:
+../../src/kernel/winpaint.c:80: warning: `pPaintWin' defined but not used
+../../src/kernel/winpaint.c:84: warning: `GetPaintMessageFromWindow' declared `static' but never defined
+../../src/kernel/winpaint.c:85: warning: `GetPaintMessageFromWindowTree' declared `static' but never defined
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+../../src/kernel/devdisp.c: In function `DISPDEV_Init':
+../../src/kernel/devdisp.c:112: warning: assignment from incompatible pointer type
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+../../src/kernel/wsobmp.c: In function `BMP_CreateCompatible':
+../../src/kernel/wsobmp.c:135: warning: `uSize' might be used uninitialized in this function
+../../src/kernel/wsobmp.c: At top level:
+../../src/kernel/wsobmp.c:1185: warning: `Transfer24To8' defined but not used
+../../src/kernel/wsobmp.c:1190: warning: `Transfer16To8' defined but not used
+../../src/kernel/wsobmp.c:1195: warning: `Transfer32To8' defined but not used
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+../../src/kernel/wsocur.c:183: warning: `CURSOR_Null' defined but not used
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+../../src/kernel/wsodc.c: In function `DC_GetTextMetrics':
+../../src/kernel/wsodc.c:1690: warning: `pFontObj' might be used uninitialized in this function
+../../src/kernel/wsodc.c: In function `DC_ToGraphParam':
+../../src/kernel/wsodc.c:1844: warning: `nPaintArea' might be used uninitialized in this function
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+../../src/kernel/wsorgn.c:727: warning: `UnusedFunc' defined but not used
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+../../src/kernel/stockobj.h:376: warning: `DefaultBitmapBuffer' defined but not used
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+../../src/kernel/devinput.c: In function `INPUTDEV_TranslateMessage':
+../../src/kernel/devinput.c:1331: warning: suggest parentheses around && within ||
+../../src/kernel/devinput.c:1236: warning: `wCharCode' might be used uninitialized in this function
+../../src/kernel/devinput.c: In function `INPUTDEV_ToAscii':
+../../src/kernel/devinput.c:1941: warning: suggest parentheses around && within ||
+../../src/kernel/devinput.c:1910: warning: `wCharCode' might be used uninitialized in this function
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+../../src/kernel/devqueue.c: In function `DEVQ_PutMouseEvent':
+../../src/kernel/devqueue.c:291: warning: unused variable `pGraphDev'
+../../src/kernel/devqueue.c:282: warning: unused variable `bCursorMove'
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+../../src/kernel/wstimer.c:722: warning: `uIDEventCount' defined but not used
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+In file included from ../../src/ui/button.c:225:
+../../../../include/hp_pdaex.h:262: warning: useless keyword or type name in empty declaration
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+In file included from ../../src/ui/combobox.c:215:
+../../../../include/hp_pdaex.h:262: warning: useless keyword or type name in empty declaration
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+In file included from ../../src/ui/listbox.c:218:
+../../../../include/hp_pdaex.h:262: warning: useless keyword or type name in empty declaration
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+In file included from ../../src/ui/mledit.c:234:
+../../../../include/str_public.h:22:2: warning: `/*' within comment
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+In file included from ../../src/ui/mledit.c:229:
+../../../../include/hp_pdaex.h:262: warning: useless keyword or type name in empty declaration
+In file included from ../../src/ui/mledit.c:233:
+../../../../include/str_hp.h:2131: warning: useless keyword or type name in empty declaration
+../../src/ui/mledit.c: In function `AdjustDisplayWindow':
+../../src/ui/mledit.c:4155: warning: comparison is always false due to limited range of data type
+../../src/ui/mledit.c: In function `InHalfDBCSChar':
+../../src/ui/mledit.c:4383: warning: implicit declaration of function `KickDog'
+../../src/ui/mledit.c: In function `Edit_Size':
+../../src/ui/mledit.c:5620: warning: comparison is always true due to limited range of data type
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+In file included from ../../src/ui/strspin.c:20:
+../../../../include/hp_pdaex.h:262: warning: useless keyword or type name in empty declaration
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+In file included from ../../src/ui/numspin.c:21:
+../../../../include/hp_pdaex.h:262: warning: useless keyword or type name in empty declaration
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+../../src/fontdrv/fontdrv.c: In function `InitPhyFontInfo':
+../../src/fontdrv/fontdrv.c:530: warning: suggest parentheses around comparison in operand of &
+../../src/fontdrv/fontdrv.c:563: warning: suggest parentheses around comparison in operand of &
+../../src/fontdrv/fontdrv.c: In function `GetCharWidth':
+../../src/fontdrv/fontdrv.c:2758: warning: suggest parentheses around comparison in operand of &
+../../src/fontdrv/fontdrv.c: At top level:
+../../src/fontdrv/fontdrv.c:2493: warning: `IsValidCode' defined but not used
+../../src/fontdrv/fontdrv.c:2573: warning: `IsDBytesFont' defined but not used
+../../src/fontdrv/fontdrv.c:2588: warning: `GetFontExtend' defined but not used
+../../src/fontdrv/fontdrv.c:2605: warning: `GetCharSize' defined but not used
+../../src/fontdrv/fontdrv.h:229: warning: `GetCharBmp' declared `static' but never defined
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+../../src/hgos/osal.c:64: warning: `lSysClock' defined but not used
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+../../src/hgos/filesys.c: In function `HGOS_CreateFile':
+../../src/hgos/filesys.c:200: warning: left-hand operand of comma expression has no effect
+../../src/hgos/filesys.c:200: warning: left-hand operand of comma expression has no effect
+../../src/hgos/filesys.c:200: warning: statement with no effect
+../../src/hgos/filesys.c: In function `HGOS_CloseFile':
+../../src/hgos/filesys.c:230: warning: left-hand operand of comma expression has no effect
+../../src/hgos/filesys.c:230: warning: statement with no effect
+../../src/hgos/filesys.c: In function `HGOS_ReadFile':
+../../src/hgos/filesys.c:256: warning: left-hand operand of comma expression has no effect
+../../src/hgos/filesys.c:256: warning: statement with no effect
+../../src/hgos/filesys.c: In function `HGOS_WriteFile':
+../../src/hgos/filesys.c:282: warning: left-hand operand of comma expression has no effect
+../../src/hgos/filesys.c:282: warning: statement with no effect
+../../src/hgos/filesys.c: In function `HGOS_SetFilePointer':
+../../src/hgos/filesys.c:317: warning: left-hand operand of comma expression has no effect
+../../src/hgos/filesys.c:317: warning: statement with no effect
+../../src/hgos/filesys.c: In function `HGOS_GetFileSize':
+../../src/hgos/filesys.c:348: warning: left-hand operand of comma expression has no effect
+../../src/hgos/filesys.c:348: warning: statement with no effect
+../../src/hgos/filesys.c: In function `HGOS_UnmapFile':
+../../src/hgos/filesys.c:437: warning: left-hand operand of comma expression has no effect
+../../src/hgos/filesys.c:437: warning: statement with no effect
+../../src/hgos/filesys.c: In function `HGOS_FindFirstFile':
+../../src/hgos/filesys.c:498: warning: left-hand operand of comma expression has no effect
+../../src/hgos/filesys.c:498: warning: statement with no effect
+../../src/hgos/filesys.c:535: warning: left-hand operand of comma expression has no effect
+../../src/hgos/filesys.c:535: warning: statement with no effect
+../../src/hgos/filesys.c: In function `HGOS_FindNextFile':
+../../src/hgos/filesys.c:654: warning: left-hand operand of comma expression has no effect
+../../src/hgos/filesys.c:654: warning: statement with no effect
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+In file included from ../../src/hgos/inputmgr.c:32:
+../../src/hgos/input30.c: In function `UpdateKeyboard':
+../../src/hgos/input30.c:733: warning: too few arguments for format
+../../src/hgos/input30.c: In function `MouseEvent':
+../../src/hgos/input30.c:1085: warning: `dwFlagsUp' might be used uninitialized in this function
+../../src/hgos/inputmgr.c: At top level:
+../../src/hgos/input30.c:67: warning: `IsSysModalWindowDescendant' declared `static' but never defined
+../../src/hgos/input30.c:92: warning: `buttons' defined but not used
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+../../src/misc/wstime.c:788: warning: `CompareTime' defined but not used
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+../../src/misc/codepage.c: In function `Ucs2ToGB18030':
+../../src/misc/codepage.c:6039: warning: `idx' might be used uninitialized in this function
+../../src/misc/codepage.c: At top level:
+../../src/misc/codepage.c:7050: warning: `hp_wcsncpy' defined but not used
+In file included from ../../src/mobile/xscale/winpda.c:41:
+../../../../include/str_public.h:22:2: warning: `/*' within comment
+cc1.exe: warning: switch -mcpu=arm920 conflicts with -march= switch
+In file included from ../../src/mobile/xscale/winpda.c:40:
+../../../../include/str_hp.h:2131: warning: useless keyword or type name in empty declaration
+a - apigdi.o
+a - wsapi.o
+a - apirgn.o
+a - clstbl.o
+a - defwndbs.o
+a - sysmetri.o
+a - winclass.o
+a - wincoord.o
+a - winexpos.o
+a - winmap.o
+a - winmem.o
+a - winobj.o
+a - winpaint.o
+a - winpos.o
+a - winroot.o
+a - wsgraph.o
+a - wsinit.o
+a - devdisp.o
+a - devfont.o
+a - graphdev.o
+a - wsobmp.o
+a - wsobrush.o
+a - wsocur.o
+a - wsodc.o
+a - wsofont.o
+a - wsopen.o
+a - wsorgn.o
+a - wsotable.o
+a - devinput.o
+a - devqueue.o
+a - message.o
+a - msgqueue.o
+a - error.o
+a - rectmgr.o
+a - resmgr.o
+a - wscaret.o
+a - wsclipbo.o
+a - wscursor.o
+a - wshook.o
+a - wstimer.o
+a - wsthread.o
+a - apidlg.o
+a - apimenu.o
+a - apiscrol.o
+a - button.o
+a - combobox.o
+a - defdlg.o
+a - defwnd.o
+a - listbox.o
+a - menuobj.o
+a - menuwnd.o
+a - mledit.o
+a - msgbox.o
+a - scroll.o
+a - strspin.o
+a - numspin.o
+a - static.o
+a - wsui.o
+a - fontdrv.o
+a - osal.o
+a - filesys.o
+a - inputmgr.o
+a - wsmain.o
+a - memory.o
+a - wstime.o
+a - codepage.o
+a - winpda.o

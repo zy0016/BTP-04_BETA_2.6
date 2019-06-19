@@ -1,0 +1,83 @@
+# Microsoft Developer Studio Generated Dependency File, included by medrv.mak
+
+.\cbspdu.c : \
+	"..\..\include20\hp_modcfg.h"\
+	"..\..\include20\hpdef.h"\
+	"..\..\include20\me_wnd.h"\
+	"..\..\include20\virtkey.h"\
+	"..\..\include20\window.h"\
+	
+
+.\me_at.c : \
+	"..\..\include20\ddi\ddi.h"\
+	"..\..\include20\ddi\ioctl.h"\
+	"..\..\include20\ddi\stype.h"\
+	"..\..\include20\ddi\sysctl.h"\
+	"..\..\include20\device.h"\
+	"..\..\include20\fapi.h"\
+	"..\..\include20\hp_modcfg.h"\
+	"..\..\include20\hpdef.h"\
+	"..\..\include20\me_wnd.h"\
+	"..\..\include20\muxagent.h"\
+	"..\..\include20\virtkey.h"\
+	"..\..\include20\window.h"\
+	".\me_at.h"\
+	".\me_func.h"\
+	
+
+.\me_comn.c : \
+	"..\..\include20\hp_modcfg.h"\
+	"..\..\include20\hpdef.h"\
+	"..\..\include20\me_wnd.h"\
+	"..\..\include20\virtkey.h"\
+	"..\..\include20\window.h"\
+	".\me_comn.h"\
+	".\me_func.h"\
+	".\smspdu.h"\
+	
+
+.\me_func.c : \
+	"..\..\include20\ddi\sysctl.h"\
+	"..\..\include20\hp_modcfg.h"\
+	"..\..\include20\hpdef.h"\
+	"..\..\include20\me_wnd.h"\
+	"..\..\include20\virtkey.h"\
+	"..\..\include20\window.h"\
+	".\cbspdu.h"\
+	".\me_at.h"\
+	".\me_comn.h"\
+	".\me_func.h"\
+	".\smspdu.h"\
+	
+
+.\me_init.c : \
+	"..\..\include20\ddi\sysctl.h"\
+	"..\..\include20\hp_modcfg.h"\
+	"..\..\include20\hpdef.h"\
+	"..\..\include20\me_wnd.h"\
+	"..\..\include20\virtkey.h"\
+	"..\..\include20\window.h"\
+	".\me_at.h"\
+	".\me_func.h"\
+	
+
+.\me_wnd.c : \
+	"..\..\include20\ddi\sysctl.h"\
+	"..\..\include20\hp_modcfg.h"\
+	"..\..\include20\hpdef.h"\
+	"..\..\include20\me_wnd.h"\
+	"..\..\include20\virtkey.h"\
+	"..\..\include20\window.h"\
+	".\me_at.h"\
+	".\me_func.h"\
+	
+
+.\smspdu.c : \
+	"..\..\include20\hp_modcfg.h"\
+	"..\..\include20\hpdef.h"\
+	"..\..\include20\me_wnd.h"\
+	"..\..\include20\virtkey.h"\
+	"..\..\include20\window.h"\
+	".\me_comn.h"\
+	".\smspdu.h"\
+	

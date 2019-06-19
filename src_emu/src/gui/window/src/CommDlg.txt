@@ -1,0 +1,151 @@
+BOOL GetOpenFileName(LPOPENFILENAME lpofn); 创建一个对话框.
+lpofn[in/out]: 包含初始化对话框的信息. 这个函数返回后, 这个结构包含了用
+户对文件的选择信息.
+BOOL GetSaveFileName(LPOPENFILENAME lpofn); 意思差不多
+
+typedef struct tagOFN {
+DWORD lStructSize; 	// 这个结构的大小, 需要初始化, win2000使用
+			// sizeof(OPENFILENAME)
+
+HWND hwndOwner; 	// 拥有此对话框的窗口handle, 若没有主人, 为NULL
+
+HINSTANCE hInstance;	// 如果Flags 设置了OFN_ENABLETEMPLATEHANDLE的话,
+			// hInstance为对话框模板对象, 若 OFN_ENABLETEMPLATE 设置, hInstance 
+			// 是由lpTemplateName 指向的对话框模板模块. 若 Flags 没设置这
+			//两项,忽略这个参数
+
+LPCTSTR lpstrFilter; 	// 指向以0结为的 filter 字串对, 这个buffer的必须以两个 NULL
+			// 字符结尾 举例 {"Text files", "*.txt;*.bak", "Word doc", "*.doc",
+			//NULL, NULL}若为 NULL, 对话框没有 filter, 就是不会显示*.*, 
+			//或者*.doc什么的
+
+LPTSTR lpstrCustomFilter; // 麻烦, 为NULL就好啦
+
+DWORD nMaxCustFilter; 	// 针对上面 lpstrCustomFilter 的, 指明大小, 若上面
+			// 为NULL,这个也为NULL
+
+DWORD nFilterIndex; 	// 指明 filter 使用哪个, lpstrFilter 中第一对的序号是1(不是0)
+			// 在对话框返回后, 这个成员返回用户选择的 filter 对序号.
+
+LPTSTR lpstrFile; 	// 此成员需要初始化, 指明缺省文件对话框中显示的文件名,
+			// 返回后保存用户选择的文件名(包括驱动器名, 路径, 文件名)
+			// 一般在初始化时, 指向一个 头一个字节为0 的字符串数组,
+			// 如果 Flags 置成 OFN_ALLOWMULTISELECT 时, 用户可以选择多个文件, 返
+			// 回后保存的文件名格式比较复杂, 格式为多个文件的目录加上多个文件名.
+			// 在树状的文件对话框中, 路径和文件名之间使用NULL分隔, 在最后一个文
+			// 件名之后多使用一个NULL表示结束, 
+			//例"C:\\My Document\0File1.txt\0File2.txt\0\0" (你应该是这种情况)
+			// 在老式的对话框中, 以 space 分隔, 含有空格的长文件名使用8.3格式显
+			// 示如果用户在可以选择多文件的情况下选择的是单个文件, lpstrFile在路
+			// 径和文件名之间没有分隔, 就和没有设置多文件选择 flag 一样.
+			// 若这个 buffer 太小, 整个函数返回 FALSE, CommDlgExtendedError 函数
+			// 将返回FNERR_BUFFERTOOSMALL, 同时 lpstrFile 的头两个字节包含需要的
+			// 字节长度,byte为单位
+
+DWORD nMaxFile; 	// 指明 lpstrFile buffer的大小.
+
+LPTSTR lpstrFileTitle; 	// 指向一个buffer, 将返回文件名(包括扩展名, 但不含路径名),
+			// 初始化时也可以是NULL, 这样文件信息从 lpstrFile 得到
+
+DWORD nMaxFileTitle; 	// 指明 lpstrFileTitle 指向的 buffer 大小,
+			// lpstrFileTile为NULL时, 忽略此成员
+
+LPCTSTR lpstrInitialDir; // 指向表明初始目录名的 buffer, 可以为NULL
+
+LPCTSTR lpstrTitle; 	// 指向字串buffer, 指示 对话框的标题, 为NULL时, 系统
+			// 自动使用"Save As" 或 "open"
+
+DWORD Flags; 		// 一堆的flag, 查手册啦
+
+WORD nFileOffset; 	// 返回 lpstrFile 中, 真正文件名的 index, 例返回lpstrFile
+			// 中的值为"c:\dir1\file.ext", nFileOffset则返回8
+
+WORD nFileExtension; 	// 返回 lpstrFile中的扩展名的index
+
+LPCTSTR lpstrDefExt; 	// 指向buffer, 指示缺省的文件扩展名, 如果用户选择文件没有
+			// 扩展名时, 这个扩展名就会自动加上, 这个扩展名无需包括句号"."
+			// 可以为 NULL, 系统不自动加上扩展名
+
+LPARAM lCustData; 	// 暂时不要理它, 填NULL
+
+LPOFNHOOKPROC lpfnHook; // 暂时不要理它, 填 NULL
+
+LPCTSTR lpTemplateName;
+#if (_WIN32_WINNT >= 0x0500)
+void * pvReserved;
+DWORD dwReserved;
+DWORD FlagsEx;
+#endif // (_WIN32_WINNT >= 0x0500)
+} OPENFILENAME, *LPOPENFILENAME;
+
+
+OFN_ALLOWMULTISELECT 指示文件名多选, 如果同时设置了 OFN_EXPLORER, 对话框
+	使用explorer风格, 否则为老式风格
+
+OFN_CREATEPROMPT 指示用户选择的文件不存在时, 弹出信息要求确认创建文件,
+	如果用户选择创建, 对话框关闭, 返回文件名; 否则, 对话框保持打开.
+	如果同时指定 OFN_ALLOWMULTISELECT, 对话框只能允许用户创建一个不存在的文件.
+
+OFN_DONTADDTORECENT win2000/XP 防止文件加入到系统最近打开文件列表中
+
+OFN_ENABLEHOOK 允许 lpfnHook 成员, 当对话框打开时, 这个 lpfnHook指向的函数会执行
+
+OFN_ENABLEINCLUDENOTIFY win2000/XP 使得对话框发送 CDN_INCLUDEITEM 信息到
+	OFNHookProc 中, (当用户打开一个 folder 时)
+
+OFN_ENABLESIZING win2000/XP, windows 98/Me: 允许 explorer方式对话框重定义大小
+
+OFN_ENABLETEMPLATE 指示 lpTemplateName 成员指向对话框资源名字.
+	与此同时, hInstance 指向含有这个资源的模块名
+	如果 OFN_EXPLORER 同时设置, 系统使用模板创建缺省 explorer风格对话框的
+	孩子. 否则, 系统使用模板创建老式对话框来取代缺省的对话框.
+
+OFN_ENABLETEMPLATEHANDLE 指示 hInstance 指向一个数据块(data block)含有对话框
+	模板. 当这个标志设置后, 系统忽略 lpTemplateName 成员.
+	如果 OFN_EXPLORER 同时设置, 系统创建对话框的孩子, 否则替代缺省对话框.
+
+OFN_EXPLORER 指示使用新的explorer风格的对话框. 缺省时的确是使用新风格对话框
+	只有在我们提供 hook 函数或者 template(模板), 或设置了 OFN_ALLOWMULTISELECT
+	时, 这个标志才有必要设置
+
+OFN_EXTENSIONDIFFERENT 指示用户输入不同于 lpstrDefExt 的文件扩展名. 如果
+	lpstrDefExt本身就是 NULL, 这个标志忽略.
+
+OFN_FILEMUSTEXIST 指示用户只能选择已经存在的文件名. 如果这个标志设置了,而用户又选择了一个
+	不存在的文件名, 系统会弹出警告. 这个标志需要和 OFN_PATHMUSTEXIST一起使用
+
+OFN_FORCESHOWHIDDEN win2000/xp: 强制显示系统隐藏文件
+
+OFN_HIDEREADONLY 隐藏 Read Only check box (就是 用户选择的文件不能以只读方式打开)
+
+OFN_NOCHANGEDIR 在用户选择文件改变路径后, 将程序的当前路径恢复
+
+OFN_NODEREFERENCELINKS 指示对话框返回 (.LNK) 文件自身的路径和文件名. 若没有设置这个
+	标志, 返回的是 .lnk 文件指向的文件, .lnk 文件是windows中的快捷方式文件
+
+OFN_NOLONGNAMES 在老式对话框中, 使得返回的文件名为8.3格式. 新风格的对话框忽略此标志
+
+OFN_NONETWORKBUTTON 对话框中不显示网络按钮
+
+OFN_NOREADONLYRETURN 指示返回的文件不是只读
+
+OFN_NOTESTFILECREATE 指示文件在对话框关闭前并不创建. 这个标志用在当程序将文件保存在
+	一个不可写的网络共享时.
+
+OFN_NOVALIDATE 指示通用对话框允许在返回的文件名中含有非法字符. 通常, 程序使用一个
+	钩子 hook 函数来检查文件名, 如果没问题就发送 FILEOKSTRING 消息.
+
+OFN_OVERWRITEPROMPT 使得保存 save as 对话框在选择了一个已经存在的文件时产生一个
+	消息对话框, 用户来确认改写
+
+OFN_PATHMUSTEXIST 指示用户只能输入合理的路径名和文件名. 若用户输入不存在的文件名
+	和路径名, 系统弹出警告对话框
+
+OFN_READONLY 使得 read only check box 初始时就被选中.
+
+OFN_SHAREWARE 指示在 OpenFile 在访问网络文件时,因为网络问题失败, 忽略错误, 对话框
+	照样返回需要的文件名
+
+OFN_SHOWHELP 使得对话框显示 help 按钮. 需要指定 hwndOwner 成员能够接收HELPMSGSTRING
+	这个预注册消息, 因为用户点击 help 按钮时, 会发送此消息.
+	在新风格对话框中, 会发送 CDN_HELP 通知消息给你的钩子函数.

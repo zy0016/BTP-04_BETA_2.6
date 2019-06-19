@@ -1,0 +1,180 @@
+
+#*********************************************************************
+#
+#	script file	: scptgprs.txt
+#	purpose		: Dial telephone, userlogin, hangup, cancel
+#	declaration	: If you modify these return value, 
+#				  the program will run abnormally.
+#	return value:	
+#				  0		success
+#		 		  1		general failure
+#				  2		Modem/network has no response
+#
+#*********************************************************************
+
+# Define call stage macro value
+integer STAGE_DIAL			 = 1		# ²¦ºÅ
+integer STAGE_HANGUP		 = 3		# ¹Ò¶Ï
+integer STAGE_STOP			 = 4		# Í£Ö¹
+
+# Define return value of script parse
+integer SUCCESS				 = 0		# ²Ù×÷³É¹¦
+integer	GENERAL_FAILURE		 = 1		# ²Ù×÷Ê§°Ü
+integer MODEM_NO_RESPONSE	 = 2		# modemÃ»ÓÐÏìÓ¦
+
+# Define Response Time
+integer ATComDelay			= 5			# AT Command Response Delay
+integer CarrierDelay		= 50		# Wait Time for Carrier
+
+# temporary variable
+integer prompt
+integer cnt
+string	at_cmd
+
+procmain
+		if CALLSTATE == STAGE_DIAL	then
+			goto STG_DIAL
+		endif
+
+		if CALLSTATE == STAGE_HANGUP then
+			goto STG_HANGUP
+		endif
+
+		if CALLSTATE == STAGE_STOP then
+			goto STG_STOP
+		endif
+
+		return GENERAL_FAILURE
+
+
+#----------------------------------------------------------
+#
+#	Net Dialing Stage (Consider the Modem Type)
+#
+#----------------------------------------------------------
+
+STG_DIAL:
+		# Modem Initialize. Enable Command Echo at This Time (Default).
+
+		transmit "at^M"
+		waitfor
+			"OK"			then DL_COM1
+			"ERROR"			then RET_FAILURE
+			"SCRIPT_ABORT"  then STG_STOP	#STG_HANGUP
+		until ATComDelay
+
+DL_COM1:
+		# Disable Command Echo
+		transmit "ate0v1^M"
+		waitfor
+			"OK"			then DL_COM2
+			"ERROR"			then RET_FAILURE
+			"SCRIPT_ABORT"  then STG_STOP	#STG_HANGUP
+		until ATComDelay
+		return MODEM_NO_RESPONSE
+
+DL_COM2:
+		transmit "at+cgatt=1^M"
+		waitfor
+			"OK"			then DL_COM3
+			"ERROR"			then RET_FAILURE
+			"SCRIPT_ABORT"  then STG_STOP	#STG_HANGUP
+		until 300
+
+DL_COM3:
+		at_cmd = "at+cgdcont=1,IP,"
+		at_cmd = at_cmd + PHONENUMBER + "^M"
+
+		transmit at_cmd
+		waitfor
+			"OK"			then DL_COM4
+			"ERROR"			then RET_FAILURE
+			"SCRIPT_ABORT"  then STG_STOP	#STG_HANGUP
+		until 10
+		return MODEM_NO_RESPONSE
+
+DL_COM4:
+		transmit "at+cgact=1,1^M"
+		waitfor
+			"OK"			then DL_COM5
+			"ERROR"			then RET_FAILURE
+			"SCRIPT_ABORT"  then STG_STOP	#STG_HANGUP
+		until 10
+		return MODEM_NO_RESPONSE
+
+DL_COM5:
+		transmit "atd*99***1#^M"
+		waitfor 
+			"CONNECT"		then DL_CONNECTED
+			"CARRIER"		then DL_CONNECTED
+			"NO CARRIER"	then RET_FAILURE
+			"ERROR"			then RET_FAILURE
+			"SCRIPT_ABORT"  then STG_HANGUP
+		until CarrierDelay
+		transmit "^M"
+		return MODEM_NO_RESPONSE
+
+DL_CONNECTED:
+		return SUCCESS
+
+
+#---------------------------------------------------------
+#
+#	Hangup Line Stage
+#
+#---------------------------------------------------------
+
+STG_HANGUP:
+
+		transmit "AT+CGACT=0,1^M"
+		waitfor
+			"OK"			then RET_SUCCESS
+			"ERROR"			then RET_FAILURE
+		until ATComDelay
+
+		return GENERAL_FAILURE
+
+
+#-----------------------------------------------------------
+#
+#	Cancel Dialer Operate
+#
+#------------------------------------------------------------
+
+STG_STOP:
+		# send some backspace to cancel AT command unexecuting in modem
+
+		# Break dialing, two times ensure
+		transmit "^H"
+		waitfor
+			"NO CARRIER"	then SL_COM1
+			"OK"			then SL_COM1
+			"ERROR"			then SL_COM1
+		until 1
+
+		transmit "^H"
+		waitfor
+			"NO CARRIER"	then SL_COM1
+			"OK"			then SL_COM1
+			"ERROR"			then SL_COM1
+		until ATComDelay
+
+		return GENERAL_FAILURE
+
+SL_COM1:
+		return SUCCESS
+
+
+#------------------------------------------------------------
+#
+#	Script Return
+#
+#------------------------------------------------------------
+
+RET_SUCCESS:
+		return SUCCESS
+RET_FAILURE:
+		return GENERAL_FAILURE
+
+endproc
+

@@ -1,0 +1,107 @@
+# make file made by wb33
+USER_LIB_PATH = ../lib
+ROOT_DIR = ../..
+# macro definitions for tools & dir
+
+ifeq ($(comp),)
+comp=xscale-elf
+else
+comp=m68k-elf
+endif
+
+CC = $(comp)-gcc 
+AR = $(comp)-ar
+RANLIB = $(comp)-ar -s
+LD = $(comp)-ld
+STRIP = $(comp)-strip
+
+# macro definitions for tool flags
+TARGET = libdisplay.a
+
+CFLAGS_DEBUG = -g -c -O2 -Wall -nostdinc  -mcpu=arm920 -march=armv4 $(addprefix -I, $(INCPATH)) $(addprefix -D, $(MACRO)) -D _DEBUG
+CFLAGS_RELEASE = -O2 -Wall  -mcpu=arm920 -march=armv4 -I$(addprefix -I, $(INCPATH)) $(addprefix -D, $(MACRO)) 
+
+RM-F := rm -f
+
+#Hopen SDK dirs
+SDK_INCLUDE = ../../../../../include ../../../../../include/window
+
+INCPATH := $(SDK_INCLUDE) ../../../sysinc ../../../include ../../src/include
+
+
+# suffix & rule definitions
+
+# dependency list start
+
+### src definition start
+SRC1_DIR=$(ROOT_DIR)/rgb/src
+DISP_SRC_DIR = $(ROOT_DIR)/src
+DISP_INCLUDE = $(DISP_SRC_DIR)/include
+DISP_COMMON_DIR = $(DISP_SRC_DIR)/common
+DISP_RGBCOM_DIR = $(DISP_SRC_DIR)/rgbcom
+DISP_MONOCOM_DIR = $(DISP_SRC_DIR)/monocom
+OSDISP_DIR = .
+
+OSDISP_OBJ = disp.o
+DISPLAY_OBJ = display.o
+COMMON_OBJ = dispcomn.o
+
+#*************************************************************
+#special define start
+
+DISP_DISPLAY_DIR = $(DISP_SRC_DIR)/RGB
+DISP_MONO_DIR = $(DISP_DISPLAY_DIR)/MONO
+DISP_RGB_DIR = $(DISP_DISPLAY_DIR)/RGB
+
+RGB_OBJ =  rgb.o
+MONO_OBJ = 
+OBJS    = $(OSDISP_OBJ) $(COMMON_OBJ) $(DISPLAY_OBJ) $(RGB_OBJ) $(MONO_OBJ)
+
+SPEC_DISPLAY_FLAG = -I$(DISP_INCLUDE)
+SPEC_RGB_FLAG = -I$(DISP_INCLUDE) -I$(DISP_RGBCOM_DIR)
+SPEC_MONO_FLAG = -I$(DISP_INCLUDE) -I$(DISP_MONOCOM_DIR)
+
+#SPEC_MACRO = DDM_RGB12_4440
+#SPEC_MACRO = DDM_RGB12_4440
+#SPEC_MACRO = DDM_RGB16_565
+#SPEC_MACRO = DDM_RGB24_BGR
+#SPEC_MACRO = DDM_RGB18_BGR0
+#SPEC_MACRO = DDM_RGB32_BGR0
+
+#special define end
+#*************************************************************
+#*************************************************************
+#special files to be compiled star
+all : $(TARGET)
+
+$(OSDISP_OBJ) : %.o : $(OSDISP_DIR)/%.c
+	$(CC) -c $(CFLAGS_DEBUG) $(addprefix -I, $(INCPATH)) $(SPEC_DISPLAY_FLAG) -o $@ $< 
+
+$(DISPLAY_OBJ) : %.o : $(DISP_DISPLAY_DIR)/%.c
+	$(CC) -c $(CFLAGS_DEBUG) $(addprefix -I, $(INCPATH)) $(SPEC_DISPLAY_FLAG) -DLDD_MODE=$(SPEC_MACRO) -o $@ $< 
+	
+$(RGB_OBJ) : %.o : $(DISP_RGB_DIR)/%.c
+	$(CC) -c $(CFLAGS_DEBUG) $(addprefix -I, $(INCPATH)) $(SPEC_RGB_FLAG) -DLDD_MODE=$(SPEC_MACRO)  -o $@ $< 
+	
+#special files to be compiled end
+#************************************************************
+
+$(COMMON_OBJ) : %.o : $(DISP_COMMON_DIR)/%.c
+	$(CC) -c $(CFLAGS_DEBUG) $(addprefix -I, $(INCPATH))  -o $@ $< 
+	
+### src definition end
+
+# dependency list end
+
+# optimaization by 2 pass make
+
+# clean files except source
+
+clean:
+	$(RM-F) *.o
+	$(RM-F) *.d
+	$(RM-F) libdisplay.a
+	
+$(TARGET) : $(OBJS)
+	$(AR) -r $@ $(OBJS)
+	$(RANLIB) $@

@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: network - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\xjdan\LOCALS~1\Temp\RSPD5.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "..\..\..\include" /I "..\..\..\include\window" /I "..\..\..\include\project" /I "..\..\..\include\image" /I "..\..\..\include\public" /I "..\..\..\include\setup" /I "..\..\..\include\me" /I "..\..\..\include\ab" /I "..\..\..\include\callapp" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/network.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\BTP-04_BETA_2.2\src_emu\src\static_app\network\callbarring.c"
+"E:\BTP-04_BETA_2.2\src_emu\src\static_app\network\calldivert.c"
+"E:\BTP-04_BETA_2.2\src_emu\src\static_app\network\network_main.c"
+"E:\BTP-04_BETA_2.2\src_emu\src\static_app\network\network_misc.c"
+"E:\BTP-04_BETA_2.2\src_emu\src\static_app\network\networks.c"
+"E:\BTP-04_BETA_2.2\src_emu\src\static_app\network\ss_ussd.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\xjdan\LOCALS~1\Temp\RSPD5.tmp" 
+Creating command line "link.exe -lib /nologo /out:"..\..\..\lib\network.lib"  ".\Debug\callbarring.obj" ".\Debug\calldivert.obj" ".\Debug\network_main.obj" ".\Debug\network_misc.obj" ".\Debug\networks.obj" ".\Debug\ss_ussd.obj" "
+<h3>Output Window</h3>
+Compiling...
+callbarring.c
+calldivert.c
+network_main.c
+network_misc.c
+networks.c
+ss_ussd.c
+Creating library...
+
+
+
+<h3>Results</h3>
+network.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: APP_Game - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\danzhou\LOCALS~1\Temp\RSPAF.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /X /I "..\..\..\include" /I "..\..\..\include\public" /I "..\..\..\include\window" /I "..\..\..\include\image" /I "..\..\..\include\project" /I "..\..\..\include\me" /I "..\..\public\pub_control" /D "WIN32" /D "_MBCS" /D "_LIB" /D "_DEBUG" /D "_EMULATE_" /D "_863BIRD_" /Fp"Debug/APP_Game.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\work\Benefon\BTP-04_BETA_1.0\src_emu\src\Static_APP\Game\poker\Poker.c"
+"F:\work\Benefon\BTP-04_BETA_1.0\src_emu\src\Static_APP\Game\pushbox\PushBox.c"
+"F:\work\Benefon\BTP-04_BETA_1.0\src_emu\src\Static_APP\Game\paopao\pao.c"
+"F:\work\Benefon\BTP-04_BETA_1.0\src_emu\src\Static_APP\Game\Gobang\bitboard.c"
+"F:\work\Benefon\BTP-04_BETA_1.0\src_emu\src\Static_APP\Game\Gobang\board.c"
+"F:\work\Benefon\BTP-04_BETA_1.0\src_emu\src\Static_APP\Game\Gobang\game5.c"
+"F:\work\Benefon\BTP-04_BETA_1.0\src_emu\src\Static_APP\Game\Gobang\robot.c"
+"F:\work\Benefon\BTP-04_BETA_1.0\src_emu\src\Static_APP\Game\Gobang\SUPER5.c"
+"F:\work\Benefon\BTP-04_BETA_1.0\src_emu\src\Static_APP\Game\diamond\Diamond.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\danzhou\LOCALS~1\Temp\RSPAF.tmp" 
+Creating temporary file "C:\DOCUME~1\danzhou\LOCALS~1\Temp\RSPB0.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /X /I "..\..\..\include" /I "..\..\..\include\public" /I "..\..\..\include\window" /I "..\..\..\include\image" /I "..\..\..\include\project" /I "..\..\..\include\me" /I "..\..\public\pub_control" /D "WIN32" /D "_MBCS" /D "_LIB" /D "_DEBUG" /D "_EMULATE_" /D "_863BIRD_" /FR"Debug/" /Fp"Debug/APP_Game.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\work\Benefon\BTP-04_BETA_1.0\src_emu\src\Static_APP\Game\DepBomb\DepBomb.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\danzhou\LOCALS~1\Temp\RSPB0.tmp" 
+Creating temporary file "C:\DOCUME~1\danzhou\LOCALS~1\Temp\RSPB1.tmp" with contents
+[
+/nologo /out:"..\..\..\lib\game.lib" 
+".\Debug\Poker.obj"
+".\Debug\PushBox.obj"
+".\Debug\DepBomb.obj"
+".\Debug\pao.obj"
+".\Debug\bitboard.obj"
+".\Debug\board.obj"
+".\Debug\game5.obj"
+".\Debug\robot.obj"
+".\Debug\SUPER5.obj"
+".\Debug\Diamond.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\danzhou\LOCALS~1\Temp\RSPB1.tmp"
+<h3>Output Window</h3>
+Compiling...
+Poker.c
+PushBox.c
+pao.c
+bitboard.c
+board.c
+game5.c
+robot.c
+SUPER5.c
+Diamond.c
+Compiling...
+DepBomb.c
+Creating library...
+
+
+
+<h3>Results</h3>
+game.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

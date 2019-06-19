@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: APP_Pim - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\TZHANG~2.POL\LOCALS~1\Temp\RSP77.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /X /I "..\..\..\include" /I "..\..\..\include\window" /I "..\..\..\include\project" /I "..\..\..\include\sys" /D "WIN32" /D "_MBCS" /D "_LIB" /D "_DEBUG" /D "_EMULATE_" /D "_863BIRD_" /FR"Debug/" /Fp"Debug/APP_Pim.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\benefon_xlzhu\src_me\Static_APP\Pim\notepad\CommFile.c"
+"F:\benefon_xlzhu\src_me\Static_APP\Pim\notepad\Notepad.c"
+"F:\benefon_xlzhu\src_me\Static_APP\Pim\notepad\TextFile.c"
+"F:\benefon_xlzhu\src_me\Static_APP\Pim\calc\CalcFunc.c"
+"F:\benefon_xlzhu\src_me\Static_APP\Pim\calc\CalcMain.c"
+"F:\benefon_xlzhu\src_me\Static_APP\Pim\exch\Exch.c"
+"F:\benefon_xlzhu\src_me\Static_APP\Pim\worldclock\SetTime.c"
+"F:\benefon_xlzhu\src_me\Static_APP\Pim\worldclock\WldClock.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\TZHANG~2.POL\LOCALS~1\Temp\RSP77.tmp" 
+Creating command line "link.exe -lib /nologo /out:"..\..\..\lib\pim.lib"  .\Debug\CommFile.obj .\Debug\Notepad.obj .\Debug\TextFile.obj .\Debug\CalcFunc.obj .\Debug\CalcMain.obj .\Debug\Exch.obj .\Debug\SetTime.obj .\Debug\WldClock.obj "
+<h3>Output Window</h3>
+Compiling...
+CommFile.c
+f:\benefon_xlzhu\src_me\static_app\pim\notepad\commfile.c(334) : warning C4013: 'mkdir' undefined; assuming extern returning int
+Notepad.c
+TextFile.c
+CalcFunc.c
+CalcMain.c
+Exch.c
+SetTime.c
+WldClock.c
+Creating library...
+
+
+
+<h3>Results</h3>
+pim.lib - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

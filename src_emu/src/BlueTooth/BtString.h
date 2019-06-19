@@ -1,0 +1,125 @@
+/***************************************************************************
+ *
+ *                      Pollex Mobile Platform
+ *
+ * Copyright (c) 2004 by Pollex Mobile Software Co., Ltd. 
+ *                       All Rights Reserved 
+ *
+ * Module   : 
+ *
+ * Purpose  : 
+ *
+\**************************************************************************/
+
+#ifndef _BTSTRING_H_
+#define _BTSTRING_H_
+
+//title character
+#define IDP_BT_TITLE_SETTINGS              ML("Settings")
+#define IDP_BT_TITLE_BLUETOOTH             ML("Bluetooth")
+#define IDP_BT_TITLE_VISIBILITY            ML("Visiblity")
+#define IDP_BT_TITLE_PAIREDDEVICES         ML("PairedDevices")
+#define IDP_BT_TITLE_NEWDEVICE             ML("NewDevice")
+#define IDP_BT_TITLE_RENAMEDEVICE          ML("RenameDevice")
+#define IDP_BT_TITLE_SELECTPAIREDDEVICES   ML("SelectPairedDevices")
+#define IDP_BT_TITLE_BUSINESSCARD          ML("BusinessCard")
+#define IDP_BT_TITLE_CALENDARENTRY         ML("CalendarEntry")
+#define IDP_BT_TITLE_NOTE                  ML("Note")
+
+//button character
+#define IDP_BT_BUTTON_OK              ML("Ok")
+#define IDP_BT_BUTTON_CANCEL          ML("Cancel")
+#define IDP_BT_BUTTON_YES             ML("Yes")
+#define IDP_BT_BUTTON_NO              ML("No")
+#define IDP_BT_BUTTON_EXIT            ML("Exit")   
+#define IDP_BT_BUTTON_BACK            ML("Back")
+#define IDP_BT_BUTTON_PAIR            ML("Pair")
+#define IDP_BT_BUTTON_CONNECT         ML("Connect")
+#define IDP_BT_BUTTON_DISCONNECT      ML("Disconnect")
+#define IDP_BT_BUTTON_STOP            ML("Stop")
+#define IDP_BT_BUTTON_SAVE            ML("Save")
+#define IDP_BT_BUTTON_DELETE          ML("Delete")
+
+//string character
+#define IDP_BT_STRING_PHONENAME                  ML("PhoneName")
+#define IDP_BT_STRING_PHONENAMEINPUT             ML("PhoneNameInput")
+#define IDP_BT_STRING_ON                         ML("On")
+#define IDP_BT_STRING_OFF                        ML("Off")
+#define IDP_BT_STRING_BTSWITCHOFFPROMPT          ML("BtSwitchOffPrompt")
+#define IDP_BT_STRING_BTSWITCHOFFNOTIF           ML("BtSwitchOffNotif")
+#define IDP_BT_STRING_BTSWITCHONPROMPT           ML("BtSwitchOnPrompt")
+#define IDP_BT_STRING_BTSWITCHONNOTIF            ML("BtSwitchOnNotif")
+#define IDP_BT_STRING_DEFINENAME                 ML("DefineName")
+#define IDP_BT_STRING_SEARCHFORDEVICES           ML("SearchForDevices")
+#define IDP_BT_STRING_SEARCHFORDEVICESPROMPT     ML("SearchForDevicesPrompt")
+#define IDP_BT_STRING_SEARCHDEVICESFOUND         ML("SearchDevicesFound")
+#define IDP_BT_STRING_NODEVICESFOUND             ML("NoDevicesFound")
+#define IDP_BT_STRING_PAIRING                    ML("Pairing")
+#define IDP_BT_STRING_BTENTERPASSCODE            ML("BtEnterPasscode")
+#define IDP_BT_STRING_BTENTERPASSCODENODEV       ML("BtEnterPasscodeNoDev")
+#define IDP_BT_STRING_PAIRINGSUCCESSFUL          ML("PairingSuccessful")
+#define IDP_BT_STRING_PAIRINGFAILED              ML("PairingFailed")
+#define IDP_BT_STRING_RENAME                     ML("Rename")
+#define IDP_BT_STRING_AUTHORISE                  ML("Authorise")
+#define IDP_BT_STRING_UNAUTHORISE                ML("Unauthorise")
+#define IDP_BT_STRING_DELETEMANY                 ML("Delete many")
+#define IDP_BT_STRING_CONNECTING                 ML("BtConnecting")
+#define IDP_BT_STRING_CONNECTED                  ML("Connected")
+#define IDP_BT_STRING_CONNECTIONFAILED           ML("BtConnectionFailed")
+#define IDP_BT_STRING_DISCONNECTPROMPT           ML("DisconnectPrompt")
+#define IDP_BT_STRING_DISCONNECTEDNOTIF          ML("DisconnectedNotif")
+#define IDP_BT_STRING_DEVICENAME                 ML("DeviceNameInput")
+#define IDP_BT_STRING_AUTHORISEPROMPT            ML("AuthorisePrompt")
+#define IDP_BT_STRING_AUTHORISENOTIF             ML("AuthoriseNotif")
+#define IDP_BT_STRING_UNAUTHORISENOTIF           ML("UnauthoriseNotif")
+#define IDP_BT_STRING_DELPAIRINGPROMPT           ML("DelPairingPrompt")
+#define IDP_BT_STRING_SINGLEDEVDISCONNDELPrompt  ML("SingleDevDisconnDelPrompt")
+#define IDP_BT_STRING_DELETEDNOTIF               ML("Deleted")
+#define IDP_BT_STRING_SELECT                     ML("Select")
+#define IDP_BT_STRING_ALL                        ML("All")
+#define IDP_BT_STRING_DelSelPairingsPrompt       ML("DelSelPairingsPrompt")
+#define IDP_BT_STRING_SOMEDEVDISCONNDELPROMPT    ML("SomeDevDisconnDelPrompt")
+#define IDP_BT_STRING_NOPAIREDDEVSELPROMPT       ML("NoPairedDevSelPrompt")
+#define IDP_BT_STRING_DELETING                   ML("Deleting...")
+#define IDP_BT_STRING_DELALLPAIRINGSPROMPT       ML("DelAllPairingsPrompt")
+#define IDP_BT_STRING_SOMEDEVDISCONNDELALLPROMPT ML("SomeDevDisconnDelAllPrompt")
+#define IDP_BT_STRING_SENDING                    ML("BtSending")
+#define IDP_BT_STRING_SENT                       ML("BtSent")
+#define IDP_BT_STRING_SENDINGFAILED              ML("BtSendingFailed")
+#define IDP_BT_STRING_RECEIVEDATAPROMPT          ML("ReceiveDataPrompt")
+#define IDP_BT_STRING_DATARECVSTARTEDNOTIF       ML("DataRecvStartedNotif")
+#define IDP_BT_STRING_DATARECVDENIEDNOTIF        ML("DataRecvDeniedNotif")
+#define IDP_BT_STRING_BTPASSCODEACCEPTED         ML("BtPasscodeAccepted")
+#define IDP_BT_STRING_BTPASSCODEDENIED           ML("BtPasscodeDenied")
+#define IDP_BT_STRING_ACCEPTCONNPROMPT           ML("BtAcceptConnPrompt")
+#define IDP_BT_STRING_CONNECTEDNOTIF             ML("BtConnectedNotif")
+#define IDP_BT_STRING_CONNDENIEDNOTIF            ML("BtConnDeniedNotif")
+
+#define IDP_BT_STRING_SAVEPICTURE                ML("Save Picture")
+#define IDP_BT_STRING_SAVEBUSINESSCARD           ML("Save Business Card")   
+#define IDP_BT_STRING_SAVECALENDARENTRY          ML("Save Calendar Entry")
+#define IDP_BT_STRING_SAVENOTE                   ML("Save Note")     
+#define IDP_BT_STRING_MOVETOFOILDER              ML("Move To Folder")
+#define IDP_BT_STRING_MSGINFO                    ML("MessageInfo")
+#define IDP_BT_STRING_SAVETOCONTACTS             ML("Saved To Contacts")
+#define IDP_BT_STRING_SAVETOCALENDAR             ML("Saved To Calendar")
+#define IDP_BT_STRING_SAVETONOTEPAD              ML("Saved To Notepad")
+#define IDP_BT_STRING_PICTURE                    ML("Picture")
+#define IDP_BT_STRING_FROM                       ML("From:")
+#define IDP_BT_STRING_DATE                       ML("Date:")
+#define IDP_BT_STRING_TIME                       ML("Time:")
+#define IDP_BT_STRING_TYPE                       ML("Type:")
+#define IDP_BT_STRING_SIZE                       ML("Size:")
+#define IDP_BT_STRING_UNKNOWN                    ML("Unknown")
+#define IDP_BT_STRING_MESSAGEMOVED               ML("Message Moved")
+#define IDP_BT_STRING_SELECTFOLDER               ML("Select Folder")
+#define IDP_BT_STRING_DELMSGPROMPT               ML("Delete message?")
+#define IDP_BT_STRING_CANNOTOPENFORMAT           ML("CannotOpenFormat")
+#define IDP_BT_STRING_DEFINEANOTHERNAME          ML("please define another name")
+#define IDP_BT_STRING_RENAMEPICTURE              ML("Rename picture")
+#define IDP_BT_STRING_RENAMENOTE                 ML("Rename note")
+#define IDP_BT_STRING_PLEASEDEFINENAME           ML("Please define name")
+#define IDP_BT_STRING_PICTURENAME                ML("picture name:")
+#define IDP_BT_STRING_NOTENAME                   ML("note name:")
+
+#endif

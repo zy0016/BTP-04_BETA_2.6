@@ -1,0 +1,32 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: BrsParser - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\yliu\LOCALS~1\Temp\RSP5C.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "..\..\include\browser" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "HAVE_EXPAT_CONFIG_H" /D "_WBFOR_HOPEN_" /D "_BENEFON_" /FR"Debug/" /Fp"Debug/BrsParser.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\expat\src\xmlparse.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\expat\src\xmlrole.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\expat\src\xmltok.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\yliu\LOCALS~1\Temp\RSP5C.tmp" 
+Creating command line "link.exe -lib /nologo /out:"..\..\lib\BrsParser.lib"  ".\Debug\xmlparse.obj" ".\Debug\xmlrole.obj" ".\Debug\xmltok.obj" "
+<h3>Output Window</h3>
+Compiling...
+xmlparse.c
+f:\work\benefon\btp-04_beta_2.6\src_emu\src\expat\src\xmlparse.c(2318) : warning C4013: 'strncasecmp' undefined; assuming extern returning int
+xmlrole.c
+xmltok.c
+Creating library...
+
+
+
+<h3>Results</h3>
+BrsParser.lib - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

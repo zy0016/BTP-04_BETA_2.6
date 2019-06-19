@@ -1,0 +1,506 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "APP_Browser"="..\static_app\browser\APP_Browser.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "APP_Game"="..\Static_APP\Game\APP_Game.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "APP_Pim"="..\Static_APP\Pim\APP_Pim.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "APP_Public"="..\static_app\public\APP_Public.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "APP_USBmodem"="..\static_app\app_USBmodem\APP_USBmodem.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "Bluetooth"="..\BlueTooth\Bluetooth.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "BrsParser"="..\expat\BrsParser.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "CPHS application"="..\app_CPHS\CPHS application.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "Dialer"="..\dialer\Dialer.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "MEdrv"="..\medrv\medrv.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "MuLanguage"="..\mullanguage\MuLanguage.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ObjDebug"="..\objdebug\ObjDebug.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "Progman"="..\progman\Progman.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "Window"="..\gui\window\build\emu\Window.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "app_addressbook"="..\static_app\addressbook\app_addressbook.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "app_call"="..\static_app\call_app\app_call.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "app_message"="..\static_app\app_message\app_message.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "display"="..\gui\display-32\build\emu\display.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "dlm"="..\dlm\dlm.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ftpsvr"="..\pdasvr\ftpsvr.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "help"="..\static_app\help\help.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "image"="..\imagelib\IMAGE\build\emu\image.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "imm"="..\imm\imm.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "multiplexer"="..\multiplexer\multiplexer.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "network"="..\static_app\network\network.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "plxmm"="..\mmlib\plxmm.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "prioman"="..\prioman\prioman.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "registry"="..\registry\registry.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "setup"="..\static_app\setup\setup.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "smsdptch"="..\smsdptch\smsdptch.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "stk"="..\static_app\stk\stk.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "trafficlog"="..\static_app\trafficlog\trafficlog.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "wshell"=".\wshell.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name app_addressbook
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name APP_Browser
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name app_call
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name APP_Game
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name app_message
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name APP_Pim
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name APP_Public
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name APP_USBmodem
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name CPHS application
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Dialer
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name dlm
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ftpsvr
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name help
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name hpmm
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name image
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name imm
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name MEdrv
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name MuLanguage
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name multiplexer
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name network
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ObjDebug
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Progman
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name registry
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name setup
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name smsdptch
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name stk
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name trafficlog
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Window
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Bluetooth
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name plxmm
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name prioman
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

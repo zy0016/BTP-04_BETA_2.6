@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Progman - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\yliu\LOCALS~1\Temp\RSPA2.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /X /I "../../include/sms" /I "../../include/callapp" /I "../../include" /I "../../include/hopen" /I "../../include/project" /I "../../include/window" /I "../../include/image" /I "../../include/me" /I "../../include/setup" /I "../../include/public" /I "../../include/ab" /I "../../include/benefon" /I "../../include/browser" /I "../../include/pm" /D "DEBUG" /D "_EMULATE_" /D "EMULATION" /D "_HOPEN" /D "_DEBUG" /D "_KERN300" /D "WIN32" /D "_863BIRD_" /Fp"Debug/Progman.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\progman\compatable.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\yliu\LOCALS~1\Temp\RSPA2.tmp" 
+Creating temporary file "C:\DOCUME~1\yliu\LOCALS~1\Temp\RSPA3.tmp" with contents
+[
+/nologo /out:"..\..\lib\Progman.lib" 
+".\Debug\AppDesk.obj"
+".\Debug\AppDirs.obj"
+".\Debug\AppFile.obj"
+".\Debug\AppGrp.obj"
+".\Debug\AppMain.obj"
+".\Debug\AppPath.obj"
+".\Debug\chongdian.obj"
+".\Debug\compatable.obj"
+".\Debug\GpsApp.obj"
+".\Debug\group.obj"
+".\Debug\hook.obj"
+".\Debug\NotiProg.obj"
+".\Debug\path.obj"
+".\Debug\PMALARM.OBJ"
+".\Debug\PMI.OBJ"
+".\Debug\PowerOff.obj"
+".\Debug\Progman.obj"
+".\Debug\siminit.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\yliu\LOCALS~1\Temp\RSPA3.tmp"
+<h3>Output Window</h3>
+Compiling...
+compatable.c
+Creating library...
+
+
+
+<h3>Results</h3>
+Progman.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

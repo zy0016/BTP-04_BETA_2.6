@@ -1,0 +1,17 @@
+SCC = This is a Source Code Control file
+
+[mono_rgb.mak]
+SCC_Aux_Path = "\\Pollexdev\SmartPhoneDevelopDB\Benefon"
+SCC_Project_Name = "$/开发区/src_emu/src/gui/display/build/mx1", NNCAAAAA
+
+[mono_rgb12_rgb16.mak]
+SCC_Aux_Path = "\\Pollexdev\SmartPhoneDevelopDB\Benefon"
+SCC_Project_Name = "$/开发区/src_emu/src/gui/display/build/mx1", NNCAAAAA
+
+[rgb.mak]
+SCC_Aux_Path = "\\Pollexdev\SmartPhoneDevelopDB\Benefon"
+SCC_Project_Name = "$/开发区/src_emu/src/gui/display/build/mx1", NNCAAAAA
+
+[rgb12_rgb18.mak]
+SCC_Aux_Path = "\\Pollexdev\SmartPhoneDevelopDB\Benefon"
+SCC_Project_Name = "$/开发区/src_emu/src/gui/display/build/mx1", NNCAAAAA

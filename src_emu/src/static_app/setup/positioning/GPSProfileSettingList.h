@@ -1,0 +1,16 @@
+#ifndef _GPSPROFILESETTINGLIST_H
+#define _GPSPROFILESETTINGLIST_H
+
+#define  IDC_GPS_NAME 100
+#define  IDC_GPS_ICON 101
+#define  IDC_GPS_REFINTVL 102
+#define  IDC_GPS_REFINTCHA 103
+#define  IDC_GPS_OPTI 104
+#define  IDC_GPS_NMEA 105
+
+#define  IDC_BUTTON_QUIT 106
+#define  IDC_BUTTON_SET  107
+
+#define TIMER_ID     WM_USER + 101
+
+#endif

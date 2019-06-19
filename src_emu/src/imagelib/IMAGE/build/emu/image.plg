@@ -1,0 +1,271 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: image - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\yliu\LOCALS~1\Temp\RSP64.tmp" with contents
+[
+/nologo /Zp4 /MLd /W3 /Gm /GX /ZI /Od /I "../../../../../include" /I "../../../../../include/window" /I "../../../../../include/project" /I "../../../../../include/image" /I "../../../../../include/hal" /D "_DEBUG" /D "_KERN200" /D "_EMULATE_" /FR"Debug/" /Fp"Debug/image.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\BmpCvert.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\DrawImg.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\DrawJpeg.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\DrawPng.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\drawwbmp.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\filesys.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\plximg.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\gif\dgif.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\gif\EGIF_LIB.C"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\gif\gif_fsm.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\gif\GIF_HASH.C"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\gif\gif_lwz.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\gif\mymemmgr.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\djpeg.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JCAPIMIN.C"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JCAPISTD.C"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JCCOEFCT.C"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JCCOLOR.C"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JCDCTMGR.C"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JCHUFF.C"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JCINIT.C"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JCMAINCT.C"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JCMARKER.C"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JCMASTER.C"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\jcomapi.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JCPARAM.C"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JCPHUFF.C"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JCPREPCT.C"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JCSAMPLE.C"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JCTRANS.C"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\jdapimin.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\jdapistd.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JDATADST.C"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JDATASRC.C"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\jdcoefct.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\jdcolor.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\jddctmgr.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\jdhuff.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\jdinput.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\jdmainct.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\jdmarker.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\jdmaster.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JDMERGE.C"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\jdphuff.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\jdpostct.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\jdsample.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JDTRANS.C"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JERROR.C"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JFDCTFLT.C"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JFDCTFST.C"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JFDCTINT.C"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JIDCTFLT.C"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\jidctfst.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\jidctint.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JIDCTRED.C"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\jmemmgr.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JMEMNOBS.C"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JQUANT1.C"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\JQUANT2.C"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\jpeg\jutils.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\png\png.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\png\pngerror.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\png\pngget.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\png\pngmem.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\png\pngpread.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\png\pngread.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\png\pngrio.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\png\pngrtran.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\png\pngrutil.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\png\pngset.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\png\pngtrans.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\png\pngvcrd.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\png\pngwio.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\png\pngwrite.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\png\pngwtran.c"
+"F:\work\Benefon\BTP-04_BETA_2.6\src_emu\src\imagelib\IMAGE\src\png\pngwutil.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\yliu\LOCALS~1\Temp\RSP64.tmp" 
+Creating temporary file "C:\DOCUME~1\yliu\LOCALS~1\Temp\RSP65.tmp" with contents
+[
+/nologo /out:"../../../../../lib/hpimage.lib" 
+".\Debug\BmpCvert.obj"
+".\Debug\DrawImg.obj"
+".\Debug\DrawJpeg.obj"
+".\Debug\DrawPng.obj"
+".\Debug\drawwbmp.obj"
+".\Debug\filesys.obj"
+".\Debug\plximg.obj"
+".\Debug\dgif.obj"
+".\Debug\EGIF_LIB.OBJ"
+".\Debug\gif_fsm.obj"
+".\Debug\GIF_HASH.OBJ"
+".\Debug\gif_lwz.obj"
+".\Debug\mymemmgr.obj"
+".\Debug\djpeg.obj"
+".\Debug\JCAPIMIN.OBJ"
+".\Debug\JCAPISTD.OBJ"
+".\Debug\JCCOEFCT.OBJ"
+".\Debug\JCCOLOR.OBJ"
+".\Debug\JCDCTMGR.OBJ"
+".\Debug\JCHUFF.OBJ"
+".\Debug\JCINIT.OBJ"
+".\Debug\JCMAINCT.OBJ"
+".\Debug\JCMARKER.OBJ"
+".\Debug\JCMASTER.OBJ"
+".\Debug\jcomapi.obj"
+".\Debug\JCPARAM.OBJ"
+".\Debug\JCPHUFF.OBJ"
+".\Debug\JCPREPCT.OBJ"
+".\Debug\JCSAMPLE.OBJ"
+".\Debug\JCTRANS.OBJ"
+".\Debug\jdapimin.obj"
+".\Debug\jdapistd.obj"
+".\Debug\JDATADST.OBJ"
+".\Debug\JDATASRC.OBJ"
+".\Debug\jdcoefct.obj"
+".\Debug\jdcolor.obj"
+".\Debug\jddctmgr.obj"
+".\Debug\jdhuff.obj"
+".\Debug\jdinput.obj"
+".\Debug\jdmainct.obj"
+".\Debug\jdmarker.obj"
+".\Debug\jdmaster.obj"
+".\Debug\JDMERGE.OBJ"
+".\Debug\jdphuff.obj"
+".\Debug\jdpostct.obj"
+".\Debug\jdsample.obj"
+".\Debug\JDTRANS.OBJ"
+".\Debug\JERROR.OBJ"
+".\Debug\JFDCTFLT.OBJ"
+".\Debug\JFDCTFST.OBJ"
+".\Debug\JFDCTINT.OBJ"
+".\Debug\JIDCTFLT.OBJ"
+".\Debug\jidctfst.obj"
+".\Debug\jidctint.obj"
+".\Debug\JIDCTRED.OBJ"
+".\Debug\jmemmgr.obj"
+".\Debug\JMEMNOBS.OBJ"
+".\Debug\JQUANT1.OBJ"
+".\Debug\JQUANT2.OBJ"
+".\Debug\jutils.obj"
+".\Debug\png.obj"
+".\Debug\pngerror.obj"
+".\Debug\pngget.obj"
+".\Debug\pngmem.obj"
+".\Debug\pngpread.obj"
+".\Debug\pngread.obj"
+".\Debug\pngrio.obj"
+".\Debug\pngrtran.obj"
+".\Debug\pngrutil.obj"
+".\Debug\pngset.obj"
+".\Debug\pngtrans.obj"
+".\Debug\pngvcrd.obj"
+".\Debug\pngwio.obj"
+".\Debug\pngwrite.obj"
+".\Debug\pngwtran.obj"
+".\Debug\pngwutil.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\yliu\LOCALS~1\Temp\RSP65.tmp"
+<h3>Output Window</h3>
+Compiling...
+BmpCvert.c
+f:\work\benefon\btp-04_beta_2.6\src_emu\src\imagelib\image\src\bmpcvert.c(403) : warning C4013: 'ASSERT' undefined; assuming extern returning int
+DrawImg.c
+f:\work\benefon\btp-04_beta_2.6\src_emu\src\imagelib\image\src\drawimg.c(727) : warning C4101: 'pImgObj' : unreferenced local variable
+DrawJpeg.c
+f:\work\benefon\btp-04_beta_2.6\src_emu\src\imagelib\image\src\drawjpeg.c(180) : warning C4133: '=' : incompatible types - from 'void (__cdecl *)(void *)' to 'int (__cdecl *)(void *)'
+f:\work\benefon\btp-04_beta_2.6\src_emu\src\imagelib\image\src\drawjpeg.c(273) : warning C4133: '=' : incompatible types - from 'void (__cdecl *)(void *)' to 'int (__cdecl *)(void *)'
+f:\work\benefon\btp-04_beta_2.6\src_emu\src\imagelib\image\src\drawjpeg.c(1060) : warning C4013: 'ASSERT' undefined; assuming extern returning int
+f:\work\benefon\btp-04_beta_2.6\src_emu\src\imagelib\image\src\drawjpeg.c(1118) : warning C4133: '=' : incompatible types - from 'void (__cdecl *)(void *)' to 'int (__cdecl *)(void *)'
+DrawPng.c
+f:\work\benefon\btp-04_beta_2.6\src_emu\src\imagelib\image\src\drawpng.c(39) : warning C4013: 'malloc' undefined; assuming extern returning int
+f:\work\benefon\btp-04_beta_2.6\src_emu\src\imagelib\image\src\drawpng.c(69) : warning C4013: 'free' undefined; assuming extern returning int
+f:\work\benefon\btp-04_beta_2.6\src_emu\src\imagelib\image\src\drawpng.c(322) : warning C4013: 'png_destroy_struct_2' undefined; assuming extern returning int
+drawwbmp.c
+f:\work\benefon\btp-04_beta_2.6\src_emu\src\imagelib\image\src\drawwbmp.c(39) : warning C4013: 'ASSERT' undefined; assuming extern returning int
+filesys.c
+plximg.c
+dgif.c
+EGIF_LIB.C
+f:\work\benefon\btp-04_beta_2.6\src_emu\src\imagelib\image\src\gif\egif_lib.c(77) : warning C4013: 'malloc' undefined; assuming extern returning int
+f:\work\benefon\btp-04_beta_2.6\src_emu\src\imagelib\image\src\gif\egif_lib.c(94) : warning C4013: 'free' undefined; assuming extern returning int
+gif_fsm.c
+GIF_HASH.C
+f:\work\benefon\btp-04_beta_2.6\src_emu\src\imagelib\image\src\gif\gif_hash.c(55) : warning C4013: 'malloc' undefined; assuming extern returning int
+gif_lwz.c
+mymemmgr.c
+djpeg.c
+JCAPIMIN.C
+JCAPISTD.C
+JCCOEFCT.C
+JCCOLOR.C
+JCDCTMGR.C
+JCHUFF.C
+JCINIT.C
+JCMAINCT.C
+JCMARKER.C
+JCMASTER.C
+jcomapi.c
+JCPARAM.C
+JCPHUFF.C
+JCPREPCT.C
+JCSAMPLE.C
+JCTRANS.C
+jdapimin.c
+jdapistd.c
+JDATADST.C
+JDATASRC.C
+jdcoefct.c
+jdcolor.c
+jddctmgr.c
+jdhuff.c
+jdinput.c
+jdmainct.c
+jdmarker.c
+jdmaster.c
+JDMERGE.C
+jdphuff.c
+jdpostct.c
+jdsample.c
+JDTRANS.C
+JERROR.C
+f:\work\benefon\btp-04_beta_2.6\src_emu\src\imagelib\image\src\jpeg\jerror.c(181) : warning C4013: 'sprintf' undefined; assuming extern returning int
+JFDCTFLT.C
+JFDCTFST.C
+JFDCTINT.C
+JIDCTFLT.C
+jidctfst.c
+jidctint.c
+JIDCTRED.C
+jmemmgr.c
+JMEMNOBS.C
+JQUANT1.C
+JQUANT2.C
+jutils.c
+png.c
+pngerror.c
+pngget.c
+pngmem.c
+pngpread.c
+pngread.c
+pngrio.c
+pngrtran.c
+pngrutil.c
+pngset.c
+pngtrans.c
+pngvcrd.c
+pngwio.c
+pngwrite.c
+pngwtran.c
+pngwutil.c
+Creating library...
+
+
+
+<h3>Results</h3>
+hpimage.lib - 0 error(s), 14 warning(s)
+</pre>
+</body>
+</html>

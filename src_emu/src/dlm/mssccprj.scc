@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[dlm.dsp]
+SCC_Aux_Path = "\\Pollexdev\SmartPhoneDevelopDB\Benefon"
+SCC_Project_Name = "$/开发区/src_emu/src/dlm", FOEAAAAA
+
+[dlm.mak]
+SCC_Aux_Path = "\\Pollexdev\SmartPhoneDevelopDB\Benefon"
+SCC_Project_Name = "$/开发区/src_emu/src/dlm", FOEAAAAA

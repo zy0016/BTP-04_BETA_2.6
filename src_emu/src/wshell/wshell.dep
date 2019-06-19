@@ -1,0 +1,52 @@
+# Microsoft Developer Studio Generated Dependency File, included by wshell.mak
+
+.\App.c : \
+	"..\include20\hpdef.h"\
+	"..\include20\str_hp.h"\
+	"..\include20\str_public.h"\
+	"..\include\hp_pdaex.h"\
+	"..\include\hpdef.h"\
+	"..\include\hpime.h"\
+	"..\include\memdef.h"\
+	"..\include\osver.h"\
+	"..\include\virtkey.h"\
+	"..\include\window.h"\
+	".\App.h"\
+	
+
+.\main.c : \
+	"..\include20\conner.h"\
+	"..\include20\ddi\stype.h"\
+	"..\include\fapi.h"\
+	"..\include\hopen\devmajor.h"\
+	"..\include\hp_diag.h"\
+	"..\include\hpdef.h"\
+	"..\include\machine\posix_opt.h"\
+	"..\include\memdef.h"\
+	"..\include\osver.h"\
+	"..\include\pthread.h"\
+	"..\include\sys\mount.h"\
+	"..\include\sys\mutex.h"\
+	"..\include\sys\reent.h"\
+	"..\include\unistd.h"\
+	"..\include\virtkey.h"\
+	"..\include\window.h"\
+	
+
+.\str_public.c : \
+	"..\include20\hpdef.h"\
+	"..\include20\str_hp.h"\
+	"..\include20\str_hp_chn.h"\
+	"..\include20\str_hp_eng.h"\
+	"..\include20\str_public.h"\
+	"..\include20\str_public_chn.h"\
+	"..\include20\str_public_eng.h"\
+	
+
+.\vir_func.c : \
+	"..\include\hpdef.h"\
+	"..\include\memdef.h"\
+	"..\include\osver.h"\
+	"..\include\virtkey.h"\
+	"..\include\window.h"\
+	
